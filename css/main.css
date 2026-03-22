@@ -33,17 +33,20 @@ h1, h2, h3, h4 {
 .navbar-logo {
   height: 38px;
   width: auto;
-  /* Invert to white so it shows on dark navbar */
-  filter: brightness(0) invert(1);
+  /* Invert to white so it shows on dark navbar 
+  filter: brightness(0) invert(1);*/
 }
 
 /* Hero logo */
 .hero-logo {
+  /* 
   height: 60px;
   width: auto;
   display: block;
   filter: brightness(0) invert(1);
   opacity: 0.95;
+   */
+   display: none;
 }
 
 /* Keep brand text as fallback if logo fails */
