@@ -1,0 +1,139 @@
+- title: "Depth-wise Split Unit Coding Order for Video Compression"
+  authors: "VCP-Lab, Prof. Aiahn Kiho Choi"
+  journal: "IEEE Transactions on Circuits and Systems for Video Technology"
+  year: 2022
+  highlight: 1
+  theme: standards
+  image: pub_placeholder.png
+  description: >
+    This paper proposes a novel depth-wise split unit coding order for video compression,
+    enabling more efficient block partitioning decisions in VVC and related standards.
+    The method reduces encoder complexity while maintaining coding efficiency.
+  url: ""
+  bibtex: |
+    @article{VCPLab2022TCSVT,
+      author    = {Choi, Aiahn Kiho and others},
+      journal   = {IEEE Transactions on Circuits and Systems for Video Technology},
+      title     = {Depth-wise Split Unit Coding Order for Video Compression},
+      year      = {2022}
+    }
+
+- title: "Low-Complexity Intra Coding in Versatile Video Coding"
+  authors: "VCP-Lab, Prof. Aiahn Kiho Choi"
+  journal: "IEEE Transactions on Consumer Electronics"
+  year: 2022
+  highlight: 1
+  theme: standards
+  description: >
+    We propose low-complexity intra coding techniques for VVC (H.266),
+    significantly reducing encoder computation while preserving coding performance.
+  bibtex: |
+    @article{VCPLab2022TCE,
+      author  = {Choi, Aiahn Kiho and others},
+      journal = {IEEE Transactions on Consumer Electronics},
+      title   = {Low-Complexity Intra Coding in Versatile Video Coding},
+      year    = {2022}
+    }
+
+- title: "GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing"
+  authors: "VCP-Lab"
+  journal: "IEEE Access"
+  year: 2025
+  highlight: 1
+  theme: ai
+  description: >
+    GHMSA-Net introduces a gated hierarchical multi-scale self-attention mechanism for
+    post-processing AV1 compressed video. The network uses perceptual guidance to enhance
+    visual quality, achieving significant PSNR and SSIM improvements over the baseline codec.
+  bibtex: |
+    @article{VCPLab2025IEEEAccess,
+      author  = {VCP-Lab},
+      journal = {IEEE Access},
+      title   = {GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing},
+      year    = {2025}
+    }
+
+- title: "DRGNet: Enhanced VVC Reconstructed Frames Using Dual-Path Residual Gating for High-Resolution Video"
+  authors: "VCP-Lab"
+  journal: "Sensors"
+  year: 2025
+  highlight: 1
+  theme: ai
+  bibtex: |
+    @article{VCPLab2025Sensors,
+      author  = {VCP-Lab},
+      journal = {Sensors},
+      title   = {DRGNet: Enhanced VVC Reconstructed Frames Using Dual-Path Residual Gating for High-Resolution Video},
+      year    = {2025}
+    }
+
+- title: "Multi-Scale Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec: Towards Enhanced Visual Quality and Overall Coding Performance"
+  authors: "VCP-Lab"
+  journal: "Mathematics"
+  year: 2025
+  theme: ai
+
+- title: "DREFNet: Deep Residual Enhanced Feature GAN for VVC Compressed Video Quality Improvement"
+  authors: "VCP-Lab"
+  journal: "Mathematics"
+  year: 2025
+  theme: ai
+
+- title: "YOLO11-Driven Deep Learning Approach for Enhanced Detection and Visualization of Wrist Fractures in X-Ray Images"
+  authors: "VCP-Lab"
+  journal: "Mathematics"
+  year: 2025
+
+- title: "Multi-Type Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec"
+  authors: "VCP-Lab"
+  journal: "Mathematics"
+  year: 2024
+  theme: ai
+
+- title: "Versatile Video Coding-Post Processing Feature Fusion: A Post-Processing CNN with Progressive Feature Fusion for Efficient Video Enhancement"
+  authors: "VCP-Lab"
+  journal: "Applied Sciences"
+  year: 2024
+  theme: ai
+
+- title: "Block Partitioning Information-Based CNN Post-Filtering for EVC Baseline Profile"
+  authors: "VCP-Lab"
+  journal: "Sensors"
+  year: 2024
+  theme: standards
+
+- title: "High Quality Video Frames from VVC: A Deep Neural Network Approach"
+  authors: "VCP-Lab"
+  journal: "IEEE Access"
+  year: 2023
+  theme: ai
+
+- title: "Efficient Feature Coding Based on Performance Analysis of Versatile Video Coding (VVC) in Video Coding for Machines (VCM)"
+  authors: "VCP-Lab"
+  journal: "Multimedia Tools and Applications"
+  year: 2023
+  theme: vcm
+
+- title: "Neural Network based Video Coding in JVET"
+  authors: "VCP-Lab"
+  journal: "Journal of Broadcast Engineering"
+  year: 2022
+  theme: standards
+
+- title: "A Study on Fast and Low-Complexity Algorithms for Versatile Video Coding"
+  authors: "VCP-Lab"
+  journal: "Sensors"
+  year: 2022
+  theme: standards
+
+- title: "Low-Complexity Two-Step Lossless Depth Coding Using Coarse Lossy Coding"
+  authors: "VCP-Lab"
+  journal: "Multimedia Tools and Applications"
+  year: 2022
+  theme: immersive
+
+- title: "Super-Resolution based Video Coding Scheme"
+  authors: "VCP-Lab"
+  journal: "Challenge on Learned Image Compression Workshop, CVPR"
+  year: 2022
+  theme: immersive

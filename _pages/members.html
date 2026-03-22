@@ -1,0 +1,71 @@
+---
+layout: default
+title: Members
+permalink: /members/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Lab Members</h1>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container">
+
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Principal Investigator</h2>
+    <div class="row mb-5">
+      {% for member in site.data.team %}
+      {% if member.role == "Principal Investigator" %}
+      <div class="col-md-4 col-lg-3">
+        <div class="team-card">
+          <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
+               onerror="this.style.background='var(--border)'; this.src='';">
+          <div class="team-name">{{ member.name }}</div>
+          <div class="team-role">{{ member.role }}</div>
+          <div class="team-info">{{ member.info }}</div>
+          {% if member.email %}
+          <div class="mt-2"><a href="mailto:{{ member.email }}" style="font-size:0.82rem;">{{ member.email }}</a></div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Graduate Students</h2>
+    <div class="row mb-5">
+      {% for member in site.data.team %}
+      {% unless member.role == "Principal Investigator" or member.role == "Intern" %}
+      <div class="col-md-4 col-lg-3">
+        <div class="team-card">
+          <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
+               onerror="this.style.background='var(--border)'; this.src='';">
+          <div class="team-name">{{ member.name }}</div>
+          <div class="team-role">{{ member.role }}</div>
+          <div class="team-info">{{ member.info }}</div>
+        </div>
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Interns</h2>
+    <div class="row">
+      {% for member in site.data.team %}
+      {% if member.role == "Intern" %}
+      <div class="col-md-4 col-lg-3">
+        <div class="team-card">
+          <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
+               onerror="this.style.background='var(--border)'; this.src='';">
+          <div class="team-name">{{ member.name }}</div>
+          <div class="team-role">{{ member.role }}</div>
+          <div class="team-info">{{ member.info }}</div>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

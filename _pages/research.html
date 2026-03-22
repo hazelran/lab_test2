@@ -1,0 +1,228 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Our Research</h1>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container research-container">
+
+    <div class="research-intro">
+      <p>
+        VCP-Lab investigates video, image, and media technologies aligned with international standards.
+        With an eye toward social and technological changes, we are actively exploring advanced media
+        options such as 4K/8K/16K videos and VR/AR realistic videos, in order to anticipate the future
+        of highly immersive media.
+      </p>
+      <p>
+        Our research spans the full pipeline from standard algorithm design to AI-based enhancement,
+        combining methodologies from deep learning, signal processing, computer vision, and
+        international standardization (MPEG, JVET).
+      </p>
+    </div>
+
+    <!-- ===== THEME 1 ===== -->
+    <div class="research-theme" id="theme-standards">
+      {% assign theme = site.data.research | where: "id", "standards" | first %}
+      <div class="theme-image-wrap">
+        <img src="{{ site.baseurl }}/images/themepic/video_coding.png"
+             alt="Video Coding Standards"
+             onerror="this.style.display='none'">
+      </div>
+
+      <h2 class="theme-title">Video Coding Standards</h2>
+      <p class="theme-desc">
+        We actively contribute to international video coding standardization through
+        <strong>JVET</strong> (Joint Video Experts Team) and <strong>MPEG</strong> (ISO/IEC JTC1/SC29).
+        Our work spans VVC (H.266), HEVC (H.265), AVC (H.264), AV1, and EVC — developing faster
+        algorithms, lower-complexity implementations, and novel coding tools for adoption in
+        international standards.
+      </p>
+      <p class="theme-desc">
+        Prof. Choi served as Chairman of the Ad Hoc Group on the Essential Video Coding (EVC) standard
+        and received the <strong>ISO/IEC Excellence Award (2022)</strong> in recognition of outstanding
+        service to ISO/IEC JTC1/SC29.
+      </p>
+      <p class="theme-members">
+        Team members: <em>Prof. Aiahn Kiho Choi, VCP-Lab members</em>
+      </p>
+
+      <div class="theme-papers">
+        <p class="theme-papers-title">Selected papers</p>
+        <ol class="pub-list">
+          {% for pub in site.data.publist %}
+          {% if pub.theme == "standards" %}
+          <li class="pub-entry">
+            <div class="pub-title-line"><strong>&ldquo;{{ pub.title }}&rdquo;</strong></div>
+            <div class="pub-authors">{{ pub.authors }}</div>
+            <div class="pub-venue"><em>{{ pub.journal }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}</div>
+            <div class="pub-links">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+              {% if pub.arxiv %}<a href="{{ pub.arxiv }}" target="_blank" class="pub-link">ARXIV</a>{% endif %}
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+          <!-- Fallback: show all highlighted if no theme tag -->
+          {% assign theme_pubs = site.data.publist | where: "theme", "standards" %}
+          {% if theme_pubs.size == 0 %}
+          {% for pub in site.data.publist limit:3 %}
+          {% if pub.highlight == 1 %}
+          <li class="pub-entry">
+            <div class="pub-title-line"><strong>&ldquo;{{ pub.title }}&rdquo;</strong></div>
+            <div class="pub-authors">{{ pub.authors }}</div>
+            <div class="pub-venue"><em>{{ pub.journal }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}</div>
+            <div class="pub-links">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== THEME 2 ===== -->
+    <div class="research-theme" id="theme-ai">
+      <div class="theme-image-wrap">
+        <img src="{{ site.baseurl }}/images/themepic/ai_video.png"
+             alt="AI-based Video Enhancement"
+             onerror="this.style.display='none'">
+      </div>
+
+      <h2 class="theme-title">AI-based Video Enhancement</h2>
+      <p class="theme-desc">
+        We develop deep learning models — including CNN, GAN, and Transformer architectures —
+        to enhance the quality of compressed video and images as in-loop or post-processing filters.
+        Our work focuses on multi-scale attention mechanisms, residual learning, and perceptual
+        quality optimization for major codecs including VVC, HEVC, AV1, and EVC.
+      </p>
+      <p class="theme-members">
+        Team members: <em>Tanni, Xilong, Junghyun, Zezhen Gai, Zhao Bopu, Prof. Choi</em>
+      </p>
+
+      <div class="theme-papers">
+        <p class="theme-papers-title">Selected papers</p>
+        <ol class="pub-list">
+          {% for pub in site.data.publist %}
+          {% if pub.theme == "ai" %}
+          <li class="pub-entry">
+            <div class="pub-title-line"><strong>&ldquo;{{ pub.title }}&rdquo;</strong></div>
+            <div class="pub-authors">{{ pub.authors }}</div>
+            <div class="pub-venue"><em>{{ pub.journal }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}</div>
+            <div class="pub-links">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% assign ai_pubs = site.data.publist | where: "theme", "ai" %}
+          {% if ai_pubs.size == 0 %}
+          {% for pub in site.data.publist limit:4 %}
+          <li class="pub-entry">
+            <div class="pub-title-line"><strong>&ldquo;{{ pub.title }}&rdquo;</strong></div>
+            <div class="pub-authors">{{ pub.authors }}</div>
+            <div class="pub-venue"><em>{{ pub.journal }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}</div>
+            <div class="pub-links">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+            </div>
+          </li>
+          {% endfor %}
+          {% endif %}
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== THEME 3 ===== -->
+    <div class="research-theme" id="theme-vcm">
+      <div class="theme-image-wrap">
+        <img src="{{ site.baseurl }}/images/themepic/vcm.png"
+             alt="Video Coding for Machines"
+             onerror="this.style.display='none'">
+      </div>
+
+      <h2 class="theme-title">Video Coding for Machines (VCM)</h2>
+      <p class="theme-desc">
+        As machine vision becomes pervasive in autonomous systems and smart infrastructure,
+        we study how to compress visual data optimized for downstream AI tasks rather than
+        human perception. This includes contributions to the MPEG FCVCM (Feature Coding for
+        Video and Image Coding for Machines) standard.
+      </p>
+      <p class="theme-desc">
+        Our research explores the intersection of traditional video coding and machine learning,
+        investigating efficient feature representations that preserve task-relevant information
+        for detection, recognition, and segmentation.
+      </p>
+      <p class="theme-members">
+        Team members: <em>Xilong Liang, Prof. Choi</em>
+      </p>
+
+      <div class="theme-papers">
+        <p class="theme-papers-title">Selected papers</p>
+        <ol class="pub-list">
+          {% for pub in site.data.publist %}
+          {% if pub.theme == "vcm" %}
+          <li class="pub-entry">
+            <div class="pub-title-line"><strong>&ldquo;{{ pub.title }}&rdquo;</strong></div>
+            <div class="pub-authors">{{ pub.authors }}</div>
+            <div class="pub-venue"><em>{{ pub.journal }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}</div>
+            <div class="pub-links">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+
+    <!-- ===== THEME 4 ===== -->
+    <div class="research-theme" id="theme-immersive">
+      <div class="theme-image-wrap">
+        <img src="{{ site.baseurl }}/images/themepic/immersive.png"
+             alt="Immersive Media"
+             onerror="this.style.display:'none'">
+      </div>
+
+      <h2 class="theme-title">Immersive &amp; Next-Generation Media</h2>
+      <p class="theme-desc">
+        We look ahead to 4K/8K/16K ultra-high-resolution video, virtual reality (VR),
+        augmented reality (AR), and 360° omnidirectional video — developing compression and
+        processing technologies to support the next generation of immersive media experiences.
+        This includes our IITP-funded project on next-generation media compression for
+        Metaverse content transmission and storage.
+      </p>
+      <p class="theme-members">
+        Team members: <em>VCP-Lab members, Prof. Choi</em>
+      </p>
+
+      <div class="theme-papers">
+        <p class="theme-papers-title">Selected papers</p>
+        <ol class="pub-list">
+          {% for pub in site.data.publist %}
+          {% if pub.theme == "immersive" %}
+          <li class="pub-entry">
+            <div class="pub-title-line"><strong>&ldquo;{{ pub.title }}&rdquo;</strong></div>
+            <div class="pub-authors">{{ pub.authors }}</div>
+            <div class="pub-venue"><em>{{ pub.journal }}</em>{% if pub.year %}, {{ pub.year }}{% endif %}</div>
+            <div class="pub-links">
+              {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+            </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+
+    <p style="margin-top:2rem; color:var(--muted);">… and more. See the full <a href="{{ site.baseurl }}/publications">Publications</a> page.</p>
+
+  </div>
+</div>

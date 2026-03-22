@@ -1,0 +1,36 @@
+- name: "Prof. Aiahn Kiho Choi"
+  role: "Principal Investigator"
+  photo: "prof_choi.jpg"
+  email: aikiho@khu.ac.kr
+  info: "Professor, Department of Electronics and Information Convergence Engineering, Kyung Hee University"
+  bio: "Prof. Choi leads the VCP-Lab with expertise in video coding standards (VVC, AVC, HEVC, AV1), AI-based video compression, and international standardization (MPEG, JVET)."
+
+- name: "Tanni"
+  role: "Ph.D. Student"
+  photo: "person_placeholder.jpg"
+  info: "Joined 2024.03"
+
+- name: "Mubashir"
+  role: "Ph.D. Student"
+  photo: "person_placeholder.jpg"
+  info: "Joined 2024.03"
+
+- name: "Junghyun"
+  role: "M.S. Student"
+  photo: "person_placeholder.jpg"
+  info: "Joined 2025.03"
+
+- name: "Zezhen Gai"
+  role: "M.S. Student"
+  photo: "person_placeholder.jpg"
+  info: "Joined 2024.09"
+
+- name: "Zhao Bopu"
+  role: "M.S. Student"
+  photo: "person_placeholder.jpg"
+  info: "Joined 2024.09"
+
+- name: "Marine"
+  role: "Intern"
+  photo: "person_placeholder.jpg"
+  info: "Joined 2025.04"

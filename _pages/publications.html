@@ -1,0 +1,97 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Publications</h1>
+    <p style="margin:0.5rem 0 0; color:var(--muted);">
+      (See also the personal webpages of our group members)
+    </p>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container pub-container">
+
+    <!-- ===== HIGHLIGHTS ===== -->
+    <h2 class="pub-section-title">Group Highlights</h2>
+    <p style="color:var(--muted); font-size:0.9rem; margin-bottom:1.5rem;">
+      (For a full list of publications, see <a href="#list-of-publications">below</a>)
+    </p>
+
+    {% for pub in site.data.publist %}
+    {% if pub.highlight == 1 %}
+    <div class="pub-highlight-card">
+      {% if pub.image %}
+      <div class="pub-highlight-img">
+        <img src="{{ site.baseurl }}/images/pubpic/{{ pub.image }}" alt="{{ pub.title }}" />
+      </div>
+      {% endif %}
+      <div class="pub-highlight-body">
+        {% if pub.description %}<p class="pub-highlight-desc">{{ pub.description }}</p>{% endif %}
+        <p class="pub-highlight-authors">{{ pub.authors }}</p>
+        <p class="pub-highlight-ref">
+          <strong>
+            {% if pub.url %}<a href="{{ pub.url }}" target="_blank">{% endif %}
+            {{ pub.journal }}{% if pub.year %}, ({{ pub.year }}){% endif %}
+            {% if pub.url %}</a>{% endif %}
+          </strong>
+        </p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+    <!-- ===== FULL LIST ===== -->
+    <h2 class="pub-section-title" id="list-of-publications" style="margin-top:3rem;">List of Publications</h2>
+
+    {% assign pubs_by_year = site.data.publist | group_by: "year" | sort: "name" | reverse %}
+    {% for year_group in pubs_by_year %}
+    <h3 class="pub-year-heading">{{ year_group.name }}</h3>
+
+    <ol class="pub-list">
+      {% for pub in year_group.items %}
+      {% assign abs_id = forloop.index | prepend: "abs-" | append: "-" | append: year_group.name %}
+      {% assign bib_id = forloop.index | prepend: "bib-" | append: "-" | append: year_group.name %}
+      <li class="pub-entry">
+        <div class="pub-title-line">
+          <strong>&ldquo;{{ pub.title }}&rdquo;</strong>
+        </div>
+        <div class="pub-authors">{{ pub.authors }}</div>
+        <div class="pub-venue">
+          <em>{{ pub.journal }}</em>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}
+        </div>
+        <div class="pub-links">
+          {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" class="pub-link">PDF</a>{% endif %}
+          {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+          {% if pub.arxiv %}<a href="{{ pub.arxiv }}" target="_blank" class="pub-link">ARXIV</a>{% endif %}
+          {% if pub.description %}<a class="pub-link pub-toggle" data-target="{{ abs_id }}">ABS</a>{% endif %}
+          {% if pub.bibtex %}<a class="pub-link pub-toggle" data-target="{{ bib_id }}">BIB</a>{% endif %}
+        </div>
+        {% if pub.description %}
+        <div class="pub-collapsible" id="{{ abs_id }}">{{ pub.description }}</div>
+        {% endif %}
+        {% if pub.bibtex %}
+        <div class="pub-collapsible pub-bibtex" id="{{ bib_id }}"><pre>{{ pub.bibtex }}</pre></div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    {% endfor %}
+
+  </div>
+</div>
+
+<script>
+document.querySelectorAll('.pub-toggle').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var el = document.getElementById(this.getAttribute('data-target'));
+    if (!el) return;
+    var open = el.classList.toggle('open');
+    this.classList.toggle('active', open);
+  });
+});
+</script>

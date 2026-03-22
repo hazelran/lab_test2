@@ -1,0 +1,154 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Hero / Slider -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-5">
+        <h1 class="hero-title">Video Coding and Processing Lab</h1>
+        <p class="hero-subtitle">
+          Kyung Hee University · Department of Electronics and Information Convergence Engineering
+        </p>
+        <p style="color:rgba(255,255,255,0.85); font-size:1rem; line-height:1.7;">
+          We research video, image, and media technologies aligned with international standards —
+          pushing the frontier of 4K/8K/16K video, VR/AR immersive media, and AI-based compression.
+        </p>
+        <a href="{{ site.baseurl }}/openings" class="btn btn-outline-light btn-sm mt-2">
+          We are recruiting →
+        </a>
+      </div>
+      <div class="col-lg-7">
+        <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-placeholder">[ Add lab photo here ]</div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-placeholder">[ Add conference/event photo ]</div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-placeholder">[ Add lab group photo ]</div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main content -->
+<div class="home-content">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Left: About + Research -->
+      <div class="col-lg-8">
+
+        <div class="section-card">
+          <h3>About the Lab</h3>
+          <p>
+            VCP-Lab is committed to advancing video and image compression technologies in alignment
+            with evolving international standards. We actively explore next-generation media
+            including 4K/8K/16K video and immersive VR/AR content, leveraging deep learning and
+            AI-based coding tools to anticipate the future of highly immersive media experiences.
+          </p>
+          <p>
+            Our lab maintains strong industry collaborations with global IT companies such as
+            <strong>Samsung Electronics</strong>, <strong>LG Electronics</strong>, and <strong>Qualcomm</strong>,
+            and actively participates in international standardization bodies including
+            <strong>MPEG</strong> and <strong>JVET</strong>.
+          </p>
+        </div>
+
+        <div class="section-card">
+          <h3>Research Themes</h3>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <strong>Video Coding Standards</strong>
+              <p class="mt-1 mb-0" style="font-size:0.9rem; color:var(--muted);">
+                VVC, HEVC, AVC, AV1, EVC — contributing to JVET and MPEG standard meetings.
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <strong>AI-based Post-Processing</strong>
+              <p class="mt-1 mb-0" style="font-size:0.9rem; color:var(--muted);">
+                CNN/GAN/Transformer-based in-loop and post filters for compressed video quality enhancement.
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <strong>Immersive & XR Media</strong>
+              <p class="mt-1 mb-0" style="font-size:0.9rem; color:var(--muted);">
+                High-resolution 4K/8K/16K, VR/AR/360° video processing and compression.
+              </p>
+            </div>
+            <div class="col-sm-6">
+              <strong>Video Coding for Machines</strong>
+              <p class="mt-1 mb-0" style="font-size:0.9rem; color:var(--muted);">
+                Feature coding and compression optimized for machine vision and AI analytics (VCM/FCVCM).
+              </p>
+            </div>
+          </div>
+          <div class="mt-3">
+            <a href="{{ site.baseurl }}/research" class="btn btn-sm btn-outline-primary">
+              Full Research Overview →
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right: News -->
+      <div class="col-lg-4">
+        <div class="section-card h-100">
+          <h3>News</h3>
+          <ul class="news-list">
+            {% for item in site.data.news limit:10 %}
+            <li>
+              <span class="badge-dot {{ item.category }}"></span>
+              <div>
+                <span class="news-date">{{ item.date }}</span>
+                {{ item.headline | markdownify | remove: '<p>' | remove: '</p>' }}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+          <div class="mt-3">
+            <a href="{{ site.baseurl }}/news" style="font-size:0.88rem;">All news →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Joining info -->
+    <div class="row mt-2">
+      <div class="col-12">
+        <div class="section-card" style="background:var(--light);">
+          <h3>Join Us</h3>
+          <p>
+            We are seeking passionate <strong>undergraduate / M.S. / Ph.D. students</strong>
+            interested in video and media technology, AI-based image processing, or
+            international standardization activities.
+          </p>
+          <ul>
+            <li>Full tuition coverage through scholarships and RA/TA programs</li>
+            <li>Support for living expenses during project participation</li>
+            <li>Opportunities to collaborate with global IT companies on standardization projects</li>
+          </ul>
+          <a href="mailto:aikiho@khu.ac.kr" class="btn btn-sm btn-primary me-2">Contact Prof. Choi</a>
+          <a href="{{ site.baseurl }}/openings" class="btn btn-sm btn-outline-secondary">More info</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

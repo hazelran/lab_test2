@@ -1,0 +1,27 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>News</h1>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container" style="max-width:860px;">
+    <ul class="news-list">
+      {% for item in site.data.news %}
+      <li>
+        <span class="badge-dot {{ item.category }}"></span>
+        <div>
+          <span class="news-date">{{ item.date }}</span>
+          {{ item.headline | markdownify | remove: '<p>' | remove: '</p>' }}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

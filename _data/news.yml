@@ -1,0 +1,59 @@
+- date: "2026.03.01"
+  headline: "Dr. Woowon Kwon, postdoctoral researcher and Ph.D. graduate from our lab, has been hired by **Qualcomm** in the United States. Congratulations!"
+  category: news1
+
+- date: "2025.12.01"
+  headline: "Congratulations to Xilong, a recent master's graduate, on being hired by **Hikvision**."
+  category: news1
+
+- date: "2025.08.06"
+  headline: "Paper accepted: *GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing* published in **IEEE Access**."
+  category: news2
+
+- date: "2025.06.26"
+  headline: "Tanni, Xilong, and Junghyun presented four contributions at the **JVET meeting**."
+  category: news2
+
+- date: "2025.06.15"
+  headline: "Paper accepted: *DRGNet: Enhanced VVC Reconstructed Frames Using Dual-Path Residual Gating for High-Resolution Video* published in **Sensors**."
+  category: news2
+
+- date: "2025.05.27"
+  headline: "Paper accepted: *Multi-Scale Self-Attention-Based CNN Post-Filtering for AV1 Codec* published in **Mathematics**."
+  category: news2
+
+- date: "2025.05.14"
+  headline: "Paper accepted: *DREFNet: Deep Residual Enhanced Feature GAN for VVC Compressed Video Quality Improvement* published in **Mathematics**."
+  category: news2
+
+- date: "2025.04.01"
+  headline: "Mubashir and Marine joined as interns. Welcome!"
+  category: news2
+
+- date: "2025.03.01"
+  headline: "Junghyun joined as master student. Welcome!"
+  category: news2
+
+- date: "2024.09.23"
+  headline: "VCP-Lab has been selected as **LG Electronics' Target Lab**."
+  category: news1
+
+- date: "2024.09.01"
+  headline: "Zezhen Gai and Zhao Bopu joined as master students. Welcome!"
+  category: news2
+
+- date: "2024.03.01"
+  headline: "Tanni and Mubashir joined as Ph.D. students. Welcome!"
+  category: news2
+
+- date: "2023.07.06"
+  headline: "VCP-Lab initiated an advisory service project with **Samsung Electronics** on MPEG video coding standards."
+  category: news1
+
+- date: "2023.06.14"
+  headline: "VP Lab has been officially renamed to **VCP-Lab** (Video Coding and Processing Lab)."
+  category: news1
+
+- date: "2023.04.12"
+  headline: "VCP-Lab selected for IITP project: Development of Standard Technologies on next-generation media compression for Metaverse contents."
+  category: news1
