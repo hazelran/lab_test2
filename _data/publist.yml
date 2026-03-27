@@ -1,139 +1,626 @@
-- title: "Depth-wise Split Unit Coding Order for Video Compression"
-  authors: "VCP-Lab, Prof. Aiahn Kiho Choi"
-  journal: "IEEE Transactions on Circuits and Systems for Video Technology"
-  year: 2022
-  highlight: 1
-  theme: standards
-  image: pub_placeholder.png
-  description: >
-    This paper proposes a novel depth-wise split unit coding order for video compression,
-    enabling more efficient block partitioning decisions in VVC and related standards.
-    The method reduces encoder complexity while maintaining coding efficiency.
-  url: ""
-  bibtex: |
-    @article{VCPLab2022TCSVT,
-      author    = {Choi, Aiahn Kiho and others},
-      journal   = {IEEE Transactions on Circuits and Systems for Video Technology},
-      title     = {Depth-wise Split Unit Coding Order for Video Compression},
-      year      = {2022}
-    }
+# International Journal
 
-- title: "Low-Complexity Intra Coding in Versatile Video Coding"
-  authors: "VCP-Lab, Prof. Aiahn Kiho Choi"
-  journal: "IEEE Transactions on Consumer Electronics"
-  year: 2022
-  highlight: 1
-  theme: standards
+- title: "A Study on Advances in Whole Slide Image Compression"
+  authors: "Tanni Das and Kiho Choi*"
+  journal: "IEEE Access"
+  volume: "13"
+  pages: "202807-202823"
+  year: 2025
+  category: "International Journal"
+  id: "IJ29"
+  theme: "ai"
+  url: "https://ieeexplore.ieee.org/document/11270830"
   description: >
-    We propose low-complexity intra coding techniques for VVC (H.266),
-    significantly reducing encoder computation while preserving coding performance.
+    Whole Slide Imaging (WSI), which enables the scanning and archiving of entire tissue slides at ultra-high resolution,
+    has completely changed digital pathology by allowing pathologists to visually walk through the entire tissue sample
+    and investigate regions of interest (ROI). Due to the technological advancements in digital scanners, picture
+    visualization methods, and the integration of artificial intelligence-derived algorithms into these systems, its more
+    recent applications offer promising futures. The huge storage requirements of these large-scale images, however, pose
+    significant challenges for storage, transmission, and retrieval. This paper offers a thorough analysis of the related
+    and recent WSI compression methods created for scanners. The main objective of this analysis is to offer a thorough
+    overview of the current approaches and potential future paths in this quickly developing topic. This work has
+    highlighted the key requirements for effective WSI compression, considering the need to compromise between high
+    compression ratios and little loss of visual and diagnostic quality. Additionally, this study seeks to offer useful
+    insights into the developments achieved in WSI compression algorithms for scanners, illuminating the present
+    difficulties and potential future developments in this important area of digital pathology.
   bibtex: |
-    @article{VCPLab2022TCE,
-      author  = {Choi, Aiahn Kiho and others},
-      journal = {IEEE Transactions on Consumer Electronics},
-      title   = {Low-Complexity Intra Coding in Versatile Video Coding},
-      year    = {2022}
+    @ARTICLE{11270830,
+      author={Das, Tanni and Choi, Kiho},
+      journal={IEEE Access},
+      title={A Study on Advances in Whole Slide Image Compression},
+      year={2025},
+      volume={13},
+      number={},
+      pages={202807-202823},
+      keywords={Transform coding;Image coding;Pathology;DICOM;Image resolution;Image color analysis;Biomedical imaging;Propagation losses;Interoperability;Digital images;Digital pathology;whole slide image;scanners;image compression;JPEG;HEVC},
+      doi={10.1109/ACCESS.2025.3637830}
     }
 
 - title: "GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing"
-  authors: "VCP-Lab"
+  authors: "Bopu Zhao, Woowoen Gwun, Kiho Choi*"
   journal: "IEEE Access"
+  volume: "13"
+  pages: "138601-138621"
   year: 2025
   highlight: 1
-  theme: ai
+  image: "ghmsa_net.png"
+  category: "International Journal"
+  id: "IJ28"
+  theme: "ai"
+  url: "https://ieeexplore.ieee.org/abstract/document/11114914"
   description: >
-    GHMSA-Net introduces a gated hierarchical multi-scale self-attention mechanism for
-    post-processing AV1 compressed video. The network uses perceptual guidance to enhance
-    visual quality, achieving significant PSNR and SSIM improvements over the baseline codec.
+    The AOMedia Video 1 (AV1) codec achieves excellent compression efficiency but often introduces visually distracting
+    artifacts at high quantization parameters (QPs), impairing perceptual quality. We propose Gated Hierarchical
+    Multi-Scale Attention Network (GHMSA-Net), a post-processing model that leverages multi-scale self-attention and
+    dynamic gating to adaptively suppress compression artifacts across varying quantization levels while preserving
+    structural fidelity. The network architecture captures both fine-grained details and global context through a
+    hierarchical attention design, enabling robust restoration under diverse compression strengths. We also explore an
+    efficient training scheme that combines unified pretraining on a representative QP with lightweight QP-specific
+    fine-tuning, offering a favorable trade-off between performance and training cost. Results show that, relative to
+    the AV1 anchor, GHMSA-Net achieves BD-rate savings of 11.79% (Y), 21.24% (Cb), and 20.11% (Cr) for BD-PSNR;
+    10.55% (Y), 22.49% (Cb), and 21.44% (Cr) for BD-MS-SSIM; and 15.44% for BD-VMAF across QPs 20, 32, 43, 55, and 63.
+    Visual assessments validate the model's effectiveness in artifact removal and perceptual quality enhancement.
   bibtex: |
-    @article{VCPLab2025IEEEAccess,
-      author  = {VCP-Lab},
-      journal = {IEEE Access},
-      title   = {GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing},
-      year    = {2025}
+    @ARTICLE{11114914,
+      author={Zhao, Bopu and Gwun, Woowoen and Choi, Kiho},
+      journal={IEEE Access}, 
+      title={GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing}, 
+      year={2025},
+      volume={13},
+      number={},
+      pages={138601-138621},
+      keywords={Filters;Convolutional neural networks;Codecs;Encoding;Decoding;Attention mechanisms;Training;Standards;Adaptation models;Videos;Video compression;post-processing;convolutional neural networks;attention mechanism},
+      doi={10.1109/ACCESS.2025.3596303}
     }
 
 - title: "DRGNet: Enhanced VVC Reconstructed Frames Using Dual-Path Residual Gating for High-Resolution Video"
-  authors: "VCP-Lab"
+  authors: "Zezhen Gai, Tanni Das, and Kiho Choi*"
   journal: "Sensors"
+  volume: "25"
+  pages: "no. 12"
   year: 2025
   highlight: 1
-  theme: ai
-  bibtex: |
-    @article{VCPLab2025Sensors,
-      author  = {VCP-Lab},
-      journal = {Sensors},
-      title   = {DRGNet: Enhanced VVC Reconstructed Frames Using Dual-Path Residual Gating for High-Resolution Video},
-      year    = {2025}
-    }
+  category: "International Journal"
+  id: "IJ27"
+  theme: "ai"
 
 - title: "Multi-Scale Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec: Towards Enhanced Visual Quality and Overall Coding Performance"
-  authors: "VCP-Lab"
+  authors: "Woowoen Gwun, Kiho Choi*, and Gwang Hoon Park*"
   journal: "Mathematics"
+  volume: "13"
+  pages: "no. 11"
   year: 2025
-  theme: ai
+  highlight: 1
+  category: "International Journal"
+  id: "IJ26"
+  theme: "ai"
 
 - title: "DREFNet: Deep Residual Enhanced Feature GAN for VVC Compressed Video Quality Improvement"
-  authors: "VCP-Lab"
+  authors: "Tanni Das and Kiho Choi*"
   journal: "Mathematics"
+  volume: "13"
+  pages: "no. 10"
   year: 2025
-  theme: ai
+  highlight: 1
+  category: "International Journal"
+  id: "IJ25"
+  theme: "ai"
 
 - title: "YOLO11-Driven Deep Learning Approach for Enhanced Detection and Visualization of Wrist Fractures in X-Ray Images"
-  authors: "VCP-Lab"
+  authors: "Mubashar Tariq and Kiho Choi*"
   journal: "Mathematics"
+  volume: "13"
+  pages: "no. 9"
   year: 2025
+  category: "International Journal"
+  id: "IJ24"
+  theme: "ai"
 
 - title: "Multi-Type Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec"
-  authors: "VCP-Lab"
+  authors: "Woowoen Gwun, Kiho Choi*, and Gwang Hoon Park*"
   journal: "Mathematics"
+  volume: "12"
+  pages: "no. 18"
   year: 2024
-  theme: ai
+  category: "International Journal"
+  id: "IJ23"
+  theme: "ai"
 
-- title: "Versatile Video Coding-Post Processing Feature Fusion: A Post-Processing CNN with Progressive Feature Fusion for Efficient Video Enhancement"
-  authors: "VCP-Lab"
+- title: "Versatile Video Coding-Post Processing Feature Fusion: A Post-Processing Convolutional Neural Network with Progressive Feature Fusion for Efficient Video Enhancement"
+  authors: "Tanni Das, Xilong Liang, Kiho Choi*"
   journal: "Applied Sciences"
+  volume: "14"
+  pages: "no. 18"
   year: 2024
-  theme: ai
+  category: "International Journal"
+  id: "IJ22"
+  theme: "ai"
 
 - title: "Block Partitioning Information-Based CNN Post-Filtering for EVC Baseline Profile"
-  authors: "VCP-Lab"
+  authors: "Kiho Choi*"
   journal: "Sensors"
+  volume: "24"
+  pages: "no. 4"
   year: 2024
-  theme: standards
+  highlight: 1
+  category: "International Journal"
+  id: "IJ21"
+  theme: "standards"
 
 - title: "High Quality Video Frames from VVC: A Deep Neural Network Approach"
-  authors: "VCP-Lab"
+  authors: "Tanni Das, Kiho Choi*, and Jaeyoung Choi*"
   journal: "IEEE Access"
+  volume: "11"
+  pages: "54254-54264"
   year: 2023
-  theme: ai
+  category: "International Journal"
+  id: "IJ20"
+  theme: "ai"
 
 - title: "Efficient Feature Coding Based on Performance Analysis of Versatile Video Coding (VVC) in Video Coding for Machines (VCM)"
-  authors: "VCP-Lab"
-  journal: "Multimedia Tools and Applications"
+  authors: "Jin Young Lee, Yongho Choi, The Van Le, and Kiho Choi*"
+  journal: "Multimedia Tools and Application"
   year: 2023
-  theme: vcm
-
-- title: "Neural Network based Video Coding in JVET"
-  authors: "VCP-Lab"
-  journal: "Journal of Broadcast Engineering"
-  year: 2022
-  theme: standards
+  category: "International Journal"
+  id: "IJ19"
+  theme: "vcm"
 
 - title: "A Study on Fast and Low-Complexity Algorithms for Versatile Video Coding"
-  authors: "VCP-Lab"
+  authors: "Kiho Choi*"
   journal: "Sensors"
+  volume: "22"
+  pages: "no. 22"
   year: 2022
-  theme: standards
+  category: "International Journal"
+  id: "IJ18"
+  theme: "standards"
+
+- title: "Depth-wise Split Unit Coding Order for Video Compression"
+  authors: "Yinji Piao, Kiho Choi*, Kwang Pyo Choi, Minsoo Park and Min Woo Park"
+  journal: "IEEE Transactions on Circuits and Systems for Video Technology"
+  volume: "32"
+  pages: "6375-6384"
+  year: 2022
+  highlight: 1
+  category: "International Journal"
+  id: "IJ17"
+  theme: "standards"
+
+- title: "Low-Complexity Intra Coding in Versatile Video Coding"
+  authors: "Kiho Choi, The Van Le, Yongho Choi, and Jin Young Lee"
+  journal: "IEEE Transactions on Consumer Electronics"
+  volume: "68"
+  pages: "119-126"
+  year: 2022
+  highlight: 1
+  category: "International Journal"
+  id: "IJ16"
+  theme: "standards"
 
 - title: "Low-Complexity Two-Step Lossless Depth Coding Using Coarse Lossy Coding"
-  authors: "VCP-Lab"
-  journal: "Multimedia Tools and Applications"
+  authors: "Jin Young Lee, The Van Le, Yongho Choi, and Kiho Choi*"
+  journal: "Multimedia Tools and Application"
+  volume: "81"
+  pages: "14065-14079"
   year: 2022
-  theme: immersive
+  category: "International Journal"
+  id: "IJ05"
+  theme: "immersive"
+
+- title: "Performance Comparison of Emerging EVC and VVC Video Coding Standards with HEVC and AV1"
+  authors: "Dan Grois, Alex Giladi, Kiho Choi, Min Woo Park, Yinji Piao, Minsoo Park, Kwang Pyo Choi"
+  journal: "SMPTE Motion Imaging Journal"
+  year: 2021
+  category: "International Journal"
+  id: "IJ14"
+
+- title: "An Overview of the MPEG-5 Essential Video Coding Standard"
+  authors: "Kiho Choi, J. Chen, D. Rusanovskyy, K. P. Choi, and Euee S. Jang"
+  journal: "IEEE Signal Processing Magazine"
+  volume: "37"
+  pages: "160-167"
+  year: 2020
+  category: "International Journal"
+  id: "IJ13"
+
+- title: "Video Codec Using Flexible Block Partitioning and Advanced Prediction, Transform and Loop Filtering Technologies"
+  authors: "Kiho Choi, J. Chen, M. W. Park, H. Yang, W. Choi, S. Ikonin, Y. Piao, S. Esenlik, M. Park, Y.-K. Wang, N. Choi, Y. Zhao, S. Jeong, H. Chen, A. Tamse, A. Filippov, H. Yang, X. Ma, J. Min, R. Chernyak, B. Jin, A. M. Kotra, S. Lee, H. Gao, C. Kim, T. Solovyev, K. P. Choi, V. Rufitskiy, M. Sychev, W. Xu, T. Wang, J. Park"
+  journal: "IEEE Transactions on Circuits and Systems for Video Technology"
+  volume: "30"
+  pages: "1326-1345"
+  year: 2020
+  category: "International Journal"
+  id: "IJ12"
+
+- title: "The Joint Exploration Model (JEM) for Video Compression with Capability beyond HEVC"
+  authors: "Jianle Chen, Marta Karczewicz, Yu-Wen Huang, Kiho Choi, Jens-Rainer Ohm, Gary J. Sullivan"
+  journal: "IEEE Transactions on Circuits and Systems for Video Technology"
+  volume: "30"
+  pages: "1208-1225"
+  year: 2020
+  category: "International Journal"
+  id: "IJ11"
+
+- title: "MPEG-5 Part 1: Essential Video Coding"
+  authors: "Samuelsson, Jonatan, Kiho Choi, Jianle Chen, and Dmytro Rusanovskyy"
+  journal: "SMPTE Motion Imaging Journal"
+  volume: "129"
+  pages: "10-16"
+  year: 2020
+  category: "International Journal"
+  id: "IJ10"
+
+- title: "Zero coefficient-aware fast butterfly-based inverse discrete cosine transform algorithm"
+  authors: "Sang-hyo Park, Kiho Choi, and Euee S. Jang"
+  journal: "IET Image Processing"
+  volume: "10"
+  pages: "89-100"
+  year: 2016
+  category: "International Journal"
+  id: "IJ09"
+
+- title: "Data reuse-based fast subpixel motion estimation for high efficiency video coding"
+  authors: "Kiho Choi and Euee S. Jang"
+  journal: "Optical Engineering"
+  volume: "53"
+  pages: "063103"
+  year: 2014
+  category: "International Journal"
+  id: "IJ08"
+
+- title: "Royalty-Free Video Coding Standards in MPEG"
+  authors: "Kiho Choi and Euee S. Jang"
+  journal: "IEEE Signal Processing Magazine"
+  volume: "31"
+  pages: "145-155"
+  year: 2013
+  category: "International Journal"
+  id: "IJ07"
+
+- title: "Leveraging Parallel Computing in Modern Video Coding Standards"
+  authors: "Kiho Choi and Euee S. Jang"
+  journal: "IEEE MultiMedia"
+  volume: "19"
+  pages: "7-11"
+  year: 2012
+  category: "International Journal"
+  id: "IJ06"
+
+- title: "Early TU Decision Method for Fast Video Encoding in High Efficiency Video Coding"
+  authors: "Kiho Choi and Euee S. Jang"
+  journal: "Electronics Letters"
+  volume: "48"
+  pages: "689-691"
+  year: 2012
+  category: "International Journal"
+  id: "IJ05b"
+
+- title: "Fast CU Decision Method Based on Coding Tree Pruning for High Efficiency Video Coding"
+  authors: "Kiho Choi and Euee S. Jang"
+  journal: "Optical Engineering"
+  volume: "51"
+  pages: "030502"
+  year: 2012
+  category: "International Journal"
+  id: "IJ04"
+
+- title: "Adaptive search range adjustment scheme for fast motion estimation in AVC/H.264"
+  authors: "Sunyoung Lee, Kiho Choi and Euee S. Jang"
+  journal: "Optical Engineering"
+  volume: "50"
+  pages: "067402"
+  year: 2011
+  category: "International Journal"
+  id: "IJ03"
+
+- title: "Scaled zero coefficient-aware IDCT algorithm for fast video decoding"
+  authors: "Kiho Choi and Euee S. Jang"
+  journal: "Electronics Letters"
+  volume: "46"
+  pages: "1668-1669"
+  year: 2010
+  category: "International Journal"
+  id: "IJ02"
+
+- title: "Zero coefficient-aware IDCT Algorithm for Fast Video Decoding"
+  authors: "Kiho Choi, Sunyoung Lee, and Euee S. Jang"
+  journal: "IEEE Trans. Consumer Electronics"
+  volume: "56"
+  pages: "1822-1829"
+  year: 2010
+  category: "International Journal"
+  id: "IJ01"
+
+# International Conference
 
 - title: "Super-Resolution based Video Coding Scheme"
-  authors: "VCP-Lab"
-  journal: "Challenge on Learned Image Compression Workshop, CVPR"
+  authors: "Hyunmin Cho and Kiho Choi*"
+  journal: "2022 Challenge on Learned Image Compression (CLIC) Workshop for CVPR 2022"
+  pages: "1778-1780"
   year: 2022
-  theme: immersive
+  category: "International Conference"
+  id: "IC18"
+  theme: "immersive"
+
+- title: "A study on impact of VVC coding tools for Video Coding for Machine"
+  authors: "Minjung Cho, Yongho Bae, and Kiho Choi*"
+  journal: "2022 International Workshop on Advanced Image Technology (IWAIT)"
+  year: 2022
+  category: "International Conference"
+  id: "IC17"
+
+- title: "Overview of Baseline Profile in MPEG-5 Essential Video Coding Standard"
+  authors: "Kwang Pyo Choi, Kiho Choi*, Min Woo Park, Minsoo Park, Yinji Piao, Minseok Choi, Heechul Yang, Youngo Park"
+  journal: "2021 SPIE conference"
+  year: 2021
+  category: "International Conference"
+  id: "IC16"
+
+- title: "Split Unit Coding Order for Video Coding"
+  authors: "Yinji Piao, Kiho Choi, M. W. Park, Minsoo Park, Kwang Pyo Choi"
+  journal: "IEEE International Conference on Multimedia (ICME)"
+  year: 2021
+  category: "International Conference"
+  id: "IC15"
+
+- title: "Merge Mode With Motion Vector Difference"
+  authors: "Seungsoo Jeong, Yinji Piao, Min Woo Park, Minsoo Park, Anish Tamse, Narae Choi, Kiho Choi, Woongil Choi, Chanyul Kim"
+  journal: "IEEE International Conference on Image Processing (ICIP)"
+  year: 2020
+  category: "International Conference"
+  id: "IC14"
+
+- title: "Scan region-based coefficient coding in avs3"
+  authors: "Zhuoyi Lv, Yinji Piao, Yue Wu, Kiho Choi, Kwang Pyo Choi"
+  journal: "IEEE International Conference on Multimedia (ICME)"
+  year: 2020
+  category: "International Conference"
+  id: "IC13"
+
+- title: "Adaptive Motion Vector Resolution in AVS3 Standard"
+  authors: "Chuan Zhou, Zhuoyi Lv, Yinji Piao, Yue Wu, Kiho Choi, Kwang Pyo Choi"
+  journal: "IEEE International Conference on Multimedia (ICME)"
+  year: 2020
+  category: "International Conference"
+  id: "IC12"
+
+- title: "MPEG-5: essential video coding standard"
+  authors: "Kiho Choi, M. W. Park, K. P. Choi, J. Park, J. Chen, Y.-K. Wang, R. Chernyak, S. Ikonin, D. Rusanovskyy, W.-J. Chien, V. Seregin, M. Karczewicz"
+  journal: "Applications of Digital Image Processing XLII"
+  volume: "11137"
+  pages: "1113710"
+  year: 2019
+  category: "International Conference"
+  id: "IC11"
+
+- title: "MPEG-5 EVC"
+  authors: "J Samuelsson, Kiho Choi, J Chen, D Rusanovskyy"
+  journal: "SMPTE 2019"
+  pages: "1-11"
+  year: 2019
+  category: "International Conference"
+  id: "IC10"
+
+- title: "New Video Codec for High-Quality Video Service and Emerging Applications"
+  authors: "Kiho Choi, Jianle Chen, Anish Tamse, Haitao Yang, Min Woo Park, Sergey Ikonin, Woongil Choi, Semih Esenlik"
+  journal: "Data Compression Conference (DCC), IEEE"
+  year: 2019
+  category: "International Conference"
+  id: "IC09"
+
+- title: "Coding efficiency improvements beyond HEVC with known tools"
+  authors: "Alexander Alshin, Elena Alshina, Madhukar Budagavi, Kiho Choi, Junghye Min, Michael Mishourovsky, Yinji Piao, Ankur Saxena"
+  journal: "Applications of Digital Image Processing XXXVIII"
+  volume: "9599"
+  pages: "95991C"
+  year: 2015
+  category: "International Conference"
+  id: "IC08"
+
+- title: "Frame-based Adaptive selection of ALF for Fast HEVC Decoding"
+  authors: "Sang-hyo Park, Kiho Choi, Gyeong-gi Noh, and Euee S. Jang"
+  journal: "IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)"
+  year: 2012
+  category: "International Conference"
+  id: "IC07"
+
+- title: "CU depth-based ALF Decision for Fast HEVC Encoding"
+  authors: "Sang-hyo Park, Kiho Choi, and Euee S. Jang"
+  journal: "IEEE 16th International Symposium on Consumer Electronics (ISCE)"
+  year: 2012
+  category: "International Conference"
+  id: "IC06"
+
+- title: "Fast Mode Decision for MPEG-4 AVC/H.264 using Spatio-temporal Correlation"
+  authors: "Kiho Choi, Sunyoung Lee, and Euee S. Jang"
+  journal: "Picture Coding Symposium (PCS), IEEE"
+  pages: "481-484"
+  year: 2012
+  category: "International Conference"
+  id: "IC05"
+
+- title: "FIXED-POINT ZERO COEFFICIENT-AWARE FAST IQ-IDCT ALGORITHM"
+  authors: "Ki hoon Lee, Kiho Choi, and Euee S. Jang"
+  journal: "IEEE International Conference on Consumer Electronics - Berlin (ICCE-Berlin)"
+  year: 2011
+  category: "International Conference"
+  id: "IC04"
+
+- title: "An Efficient AVC/H. 264 Intra Mode Scheme for Visual Quality Improvement"
+  authors: "Kiho Choi, Ki hoon Lee, Gyeong Gi Noh and Euee S. Jang"
+  journal: "International Conference on Multimedia Information Technology and Applications (MITA)"
+  year: 2011
+  category: "International Conference"
+  id: "IC03"
+
+- title: "ZERO COEFFICIENT-AWARE FAST IQ-IDCT ALGORITHM"
+  authors: "Kiho Choi, Ki hoon Lee, Eun Ji Kim and Euee S. Jang"
+  journal: "IEEE International Conference on Network Infrastructure and Digital Content (IC-NIDC)"
+  year: 2010
+  category: "International Conference"
+  id: "IC02"
+
+- title: "Unified Framework of Frame Skipping and Interpolation for Efficient Video Compression"
+  authors: "Sunyoung Lee, Myungjung Lee, Kiho Choi, and Euee S. Jang"
+  journal: "IEEE International Conference on Network Infrastructure and Digital Content (IC-NIDC)"
+  year: 2009
+  category: "International Conference"
+  id: "IC01"
+
+# Domestic Journal
+
+- title: "Analysis of Next-Generation VVC/H.266 Standard for Gaming Content"
+  authors: "Xilong Liang, Kiho Choi"
+  journal: "Journal of Broadcast Engineering"
+  volume: "29"
+  pages: "1157-1167"
+  year: 2024
+  category: "Domestic Journal"
+  id: "DJ07"
+
+- title: "Performance Evaluation of Open Source Codec XEVE, XEVD for MPEG-5 Essential Video Coding"
+  authors: "Kiho Choi"
+  journal: "Journal of Broadcast Engineering"
+  volume: "29"
+  pages: "28-41"
+  year: 2024
+  category: "Domestic Journal"
+  id: "DJ06"
+
+- title: "ECM technology for Post VVC standard"
+  authors: "Kiho Choi"
+  journal: "Information and Communications Magazine"
+  volume: "40"
+  pages: "no. 9"
+  year: 2023
+  category: "Domestic Journal"
+  id: "DJ05"
+
+- title: "Neural Network based Video Coding in JVET"
+  authors: "Kiho Choi"
+  journal: "Journal of Broadcast Engineering"
+  volume: "27"
+  pages: "1021-1033"
+  year: 2022
+  category: "Domestic Journal"
+  id: "DJ04"
+
+- title: "MPEG-I Video Standard Trend"
+  authors: "Kiho Choi, and Geon Bang"
+  journal: "Broadcasting and Media Magazine"
+  volume: "23"
+  pages: "41-57"
+  year: 2018
+  category: "Domestic Journal"
+  id: "DJ03"
+
+- title: "Standard Trend of FVC 360 video technology"
+  authors: "Kiho Choi"
+  journal: "Electronic Engineering Magazine"
+  volume: "45"
+  pages: "no. 2"
+  year: 2018
+  category: "Domestic Journal"
+  id: "DJ02"
+
+- title: "Efficient parallelization implementation technique of PU-level ME for fast HEVC encoding"
+  authors: "Soobin Park, Kiho Choi, Sanghyo Park, and Euee S. Jang"
+  journal: "Journal of Korean Society of Broadcast Engineers"
+  volume: "18"
+  pages: "178-184"
+  year: 2013
+  category: "Domestic Journal"
+  id: "DJ01"
+
+# Domestic Conference
+
+- title: "Evaluation of Compression Artifacts and Visual Quality in AI-Generated Videos Using VVC/H.266"
+  authors: "Qingran He, Kiho Choi*"
+  journal: "2025 The Korean Institute of Broadcast and Media Engineers Fall Conference"
+  year: 2025
+  category: "Domestic Conference"
+  id: "DC13"
+
+- title: "Adaptive Planar Weight Adjustment for Improving DIMD Performance"
+  authors: "Junghyeon Lee, Kiho Choi*"
+  journal: "2025 The Korean Institute of Broadcast and Media Engineers Summer Conference"
+  year: 2025
+  category: "Domestic Conference"
+  id: "DC12"
+
+- title: "A web-based, AI-assisted deep learning application utilizing YOLO11 for precise detection and visualization of wrist fractures in X-ray images"
+  authors: "Mubashar Tariq, Kiho Choi*"
+  journal: "2025 The Korean Institute of Broadcast and Media Engineers Summer Conference"
+  year: 2025
+  category: "Domestic Conference"
+  id: "DC11"
+
+- title: "Evaluating the Coding Efficiency of ECM and VTM for Low-Delay on Gaming Contents"
+  authors: "Xilong Liang, Junghyeon Lee, Bopu Zhao, Zezhen Gai, Kiho Choi*"
+  journal: "2025 The Korean Institute of Broadcast and Media Engineers Summer Conference"
+  year: 2025
+  category: "Domestic Conference"
+  id: "DC10"
+
+- title: "Post-Filtering in Neural Network Video Coding: A Review of Current Techniques and Future Directions"
+  authors: "Zezhen Gai, Bopu Zhao, Tanni Das, Kiho Choi*"
+  journal: "Conference of the Korean Institute of Communication and Information Sciences"
+  year: 2024
+  category: "Domestic Conference"
+  id: "DC09"
+
+- title: "CNN-based poster filter for low-quality screen content video"
+  authors: "Seoyeon Jang, Tanni Das, Xilong Liang, Woowon Kwon, Kiho Choi*"
+  journal: "2024 The Korean Institute of Broadcast and Media Engineers Summer Conference"
+  year: 2024
+  category: "Domestic Conference"
+  id: "DC08"
+
+- title: "Experiment on CNN based Poster-filter using JVET NNVC In-loop filtering"
+  authors: "Xilong Liang, Tanni Das, Kiho Choi*"
+  journal: "2024 The Korean Institute of Broadcast and Media Engineers Summer Conference"
+  year: 2024
+  category: "Domestic Conference"
+  id: "DC07"
+
+- title: "Introduction to Video Coding Compression Technology for Machines: FCVCM Standard"
+  authors: "Xilong Liang, Jang Seoyeon, Kiho Choi*"
+  journal: "Conference of the Korean Institute of Communication and Information Sciences"
+  year: 2023
+  category: "Domestic Conference"
+  id: "DC06"
+
+- title: "EVC partitioning method"
+  authors: "Minsoo Park, Min Woo Park, Kiho Choi, Yinji Pyo, Kwang Pyo Choi"
+  journal: "Fall Conference of Korean Institute of Communications and Information Sciences"
+  year: 2020
+  category: "Domestic Conference"
+  id: "DC05"
+
+- title: "A Study on Trends and Patent DB Analysis of Video Compression Standard"
+  authors: "Kyu Dong Kim, Kiho Choi, Sanghyo Park, and Euee S. Jang"
+  journal: "Spring Conference of Korean Institute of Communications and Information Sciences"
+  year: 2013
+  category: "Domestic Conference"
+  id: "DC04"
+
+- title: "Parallelization method of IDCT with SIMD for fast HEVC decoding"
+  authors: "Seungbo Hong, Kiho Choi, Sanghyo Park, and Euee S. Jang"
+  journal: "Spring Conference of Korean Society of Broadcast Engineers"
+  year: 2013
+  category: "Domestic Conference"
+  id: "DC03"
+
+- title: "Efficient parallelization implementation technique of PU-level ME for fast HEVC encoding"
+  authors: "Soobin Park, Kiho Choi, Sanghyo Park, and Euee S. Jang"
+  journal: "Fall Conference of Korean Society of Broadcast Engineers"
+  year: 2012
+  category: "Domestic Conference"
+  id: "DC02"
+
+- title: "CU-Level Parallelization Method for HEVC Decoder"
+  authors: "Gyeong-gi Noh, Kiho Choi, and Euee S. Jang"
+  journal: "Fall Conference of Korean Society of Broadcast Engineers"
+  year: 2011
+  category: "Domestic Conference"
+  id: "DC01"
