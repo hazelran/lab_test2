@@ -1,9 +1,10 @@
 title: VCP-Lab
+longtitle: Video Coding & Processing Lab
 description: Video Coding and Processing Lab — Kyung Hee University
 url: "https://hazelran.github.io"
 baseurl: "/lab_test2"
 
-owner: "Prof. Aiihn Kiho Choi"
+owner: "Prof. Kiho Choi"
 email: aikiho@khu.ac.kr
 
 markdown: kramdown
