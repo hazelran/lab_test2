@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 <!-- Hero / Slider -->
@@ -56,16 +57,21 @@ title: Home
         <div class="section-card">
           <h3>About the Lab</h3>
           <p>
-            VCP-Lab is committed to advancing video and image compression technologies in alignment
-            with evolving international standards. We actively explore next-generation media
-            including 4K/8K/16K video and immersive VR/AR content, leveraging deep learning and
-            AI-based coding tools to anticipate the future of highly immersive media experiences.
+            <strong>Video Coding &amp; Processing Lab</strong> is currently engaged in researching video, image,
+            and media technologies that are aligned with international standards. With an eye toward
+            social and technological changes, we are actively exploring advanced media options such as
+            4K/8K/16K videos and VR/AR related realistic videos, in order to anticipate the future of highly immersive media.
           </p>
           <p>
             Our lab maintains strong industry collaborations with global IT companies such as
             <strong>Samsung Electronics</strong>, <strong>LG Electronics</strong>, and <strong>Qualcomm</strong>,
             and actively participates in international standardization bodies including
             <strong>MPEG</strong> and <strong>JVET</strong>.
+          </p>
+          <p>
+            Our lab is committed to building greater competence in standardization, and we are eager to
+            provide greater support toward the next media business. In doing so, we are opening doors to
+            the future of media experiences.
           </p>
         </div>
 
@@ -85,7 +91,7 @@ title: Home
               </p>
             </div>
             <div class="col-sm-6">
-              <strong>Immersive & XR Media</strong>
+              <strong>Immersive &amp; XR Media</strong>
               <p class="mt-1 mb-0" style="font-size:0.9rem; color:var(--muted);">
                 High-resolution 4K/8K/16K, VR/AR/360° video processing and compression.
               </p>
@@ -98,9 +104,26 @@ title: Home
             </div>
           </div>
           <div class="mt-3">
-            <a href="{{ site.baseurl }}/research" class="btn btn-sm btn-outline-primary">
+            <a href="{{ site.baseurl }}/research/" class="btn btn-sm btn-outline-primary">
               Full Research Overview →
             </a>
+          </div>
+        </div>
+
+        <!-- Funding logos -->
+        <div class="section-card">
+          <h3>Supported By</h3>
+          <div class="row align-items-center g-3">
+            <div class="col-auto">
+              <img src="{{ site.baseurl }}/images/logopic/khu_logo.png" alt="Kyung Hee University"
+                   style="max-height:50px; max-width:140px;"
+                   onerror="this.style.display='none'">
+            </div>
+            <div class="col-auto">
+              <img src="{{ site.baseurl }}/images/logopic/iitp_logo.png" alt="IITP"
+                   style="max-height:50px; max-width:140px;"
+                   onerror="this.style.display='none'">
+            </div>
           </div>
         </div>
 
@@ -111,7 +134,7 @@ title: Home
         <div class="section-card h-100">
           <h3>News</h3>
           <ul class="news-list">
-            {% for item in site.data.news limit:10 %}
+            {% for item in site.data.news limit:12 %}
             <li>
               <span class="badge-dot {{ item.category }}"></span>
               <div>
@@ -122,30 +145,29 @@ title: Home
             {% endfor %}
           </ul>
           <div class="mt-3">
-            <a href="{{ site.baseurl }}/news" style="font-size:0.88rem;">All news →</a>
+            <a href="{{ site.baseurl }}/news/" style="font-size:0.88rem;">All news →</a>
           </div>
         </div>
       </div>
 
     </div>
 
-    <!-- Joining info -->
+    <!-- Join Us -->
     <div class="row mt-2">
       <div class="col-12">
         <div class="section-card" style="background:var(--light);">
           <h3>Join Us</h3>
           <p>
-            We are seeking passionate <strong>undergraduate / M.S. / Ph.D. students</strong>
-            interested in video and media technology, AI-based image processing, or
-            international standardization activities.
+            <strong>We are currently seeking passionate undergraduate students, M.S. students, and PhD students to join
+            the team</strong> <a href="{{ site.baseurl }}/openings/">(more info)</a>!
           </p>
           <ul>
             <li>Full tuition coverage through scholarships and RA/TA programs</li>
             <li>Support for living expenses during project participation</li>
-            <li>Opportunities to collaborate with global IT companies on standardization projects</li>
+            <li>Collaboration with global IT-tech companies on standardization projects</li>
           </ul>
           <a href="mailto:aikiho@khu.ac.kr" class="btn btn-sm btn-primary me-2">Contact Prof. Choi</a>
-          <a href="{{ site.baseurl }}/openings" class="btn btn-sm btn-outline-secondary">More info</a>
+          <a href="{{ site.baseurl }}/openings/" class="btn btn-sm btn-outline-secondary">More info</a>
         </div>
       </div>
     </div>
