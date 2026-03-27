@@ -13,6 +13,7 @@ permalink: /members/
 <div class="content-section">
   <div class="container">
 
+    <!-- Principal Investigator -->
     <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Principal Investigator</h2>
     <div class="row mb-5">
       {% for member in site.data.team %}
@@ -33,10 +34,11 @@ permalink: /members/
       {% endfor %}
     </div>
 
-    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Graduate Students</h2>
+    <!-- Researcher (Post Doc.) -->
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Researcher (Post Doc.)</h2>
     <div class="row mb-5">
       {% for member in site.data.team %}
-      {% unless member.role == "Principal Investigator" or member.role == "Intern" %}
+      {% if member.role == "Researcher (Post Doc.)" %}
       <div class="col-md-4 col-lg-3">
         <div class="team-card">
           <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
@@ -44,16 +46,20 @@ permalink: /members/
           <div class="team-name">{{ member.name }}</div>
           <div class="team-role">{{ member.role }}</div>
           <div class="team-info">{{ member.info }}</div>
+          {% if member.email %}
+          <div class="mt-2"><a href="mailto:{{ member.email }}" style="font-size:0.82rem;">{{ member.email }}</a></div>
+          {% endif %}
         </div>
       </div>
-      {% endunless %}
+      {% endif %}
       {% endfor %}
     </div>
 
-    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Interns</h2>
-    <div class="row">
+    <!-- Ph.D. Students -->
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Research Assistant (Ph.D. Students)</h2>
+    <div class="row mb-5">
       {% for member in site.data.team %}
-      {% if member.role == "Intern" %}
+      {% if member.role == "Ph.D. Student" %}
       <div class="col-md-4 col-lg-3">
         <div class="team-card">
           <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
@@ -61,6 +67,72 @@ permalink: /members/
           <div class="team-name">{{ member.name }}</div>
           <div class="team-role">{{ member.role }}</div>
           <div class="team-info">{{ member.info }}</div>
+          {% if member.email %}
+          <div class="mt-2"><a href="mailto:{{ member.email }}" style="font-size:0.82rem;">{{ member.email }}</a></div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- M.S. Students -->
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Research Assistant (M.S. Students)</h2>
+    <div class="row mb-5">
+      {% for member in site.data.team %}
+      {% if member.role == "M.S. Student" %}
+      <div class="col-md-4 col-lg-3">
+        <div class="team-card">
+          <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
+               onerror="this.style.background='var(--border)'; this.src='';">
+          <div class="team-name">{{ member.name }}</div>
+          <div class="team-role">{{ member.role }}</div>
+          <div class="team-info">{{ member.info }}</div>
+          {% if member.email %}
+          <div class="mt-2"><a href="mailto:{{ member.email }}" style="font-size:0.82rem;">{{ member.email }}</a></div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Alumni -->
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Alumni</h2>
+    <div class="row mb-5">
+      {% for member in site.data.team %}
+      {% if member.role == "Alumni" %}
+      <div class="col-md-4 col-lg-3">
+        <div class="team-card">
+          <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
+               onerror="this.style.background='var(--border)'; this.src='';">
+          <div class="team-name">{{ member.name }}</div>
+          <div class="team-role">{{ member.role }}</div>
+          <div class="team-info">{{ member.info }}</div>
+          {% if member.email %}
+          <div class="mt-2"><a href="mailto:{{ member.email }}" style="font-size:0.82rem;">{{ member.email }}</a></div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Undergraduate Research Assistant Alumni -->
+    <h2 class="mb-4" style="font-size:1.3rem; border-bottom:2px solid var(--border); padding-bottom:.5rem;">Undergraduate Research Assistant Alumni</h2>
+    <div class="row">
+      {% for member in site.data.team %}
+      {% if member.role == "Undergraduate Research Assistant Alumni" %}
+      <div class="col-md-4 col-lg-3">
+        <div class="team-card">
+          <img src="{{ site.baseurl }}/images/team/{{ member.photo }}" alt="{{ member.name }}" class="team-photo"
+               onerror="this.style.background='var(--border)'; this.src='';">
+          <div class="team-name">{{ member.name }}</div>
+          <div class="team-role">{{ member.role }}</div>
+          <div class="team-info">{{ member.info }}</div>
+          {% if member.email %}
+          <div class="mt-2"><a href="mailto:{{ member.email }}" style="font-size:0.82rem;">{{ member.email }}</a></div>
+          {% endif %}
         </div>
       </div>
       {% endif %}
