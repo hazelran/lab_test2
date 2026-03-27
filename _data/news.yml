@@ -1,5 +1,5 @@
 - date: "2026.03.01"
-  headline: "Dr. Woowon Kwon, postdoctoral researcher and Ph.D. graduate from our lab, has been hired by **Qualcomm** in the United States. Congratulations!"
+  headline: "Dr. Woowon Kwon, currently a postdoctoral researcher and a Ph.D. graduate from our laboratory, has been hired by **Qualcomm** in the United States. Congratulations!"
   category: news1
 
 - date: "2025.12.01"
@@ -10,8 +10,12 @@
   headline: "Paper accepted: *GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing* published in **IEEE Access**."
   category: news2
 
-- date: "2025.06.26"
+- date: "2025.06.26 ~ 07.04"
   headline: "Tanni, Xilong, and Junghyun presented four contributions at the **JVET meeting**."
+  category: news2
+
+- date: "2025.06.22 ~ 24"
+  headline: "Lab members presented four papers at **The Korean Institute of Broadcast and Media Engineers Summer Conference 2025**."
   category: news2
 
 - date: "2025.06.15"
@@ -19,31 +23,75 @@
   category: news2
 
 - date: "2025.05.27"
-  headline: "Paper accepted: *Multi-Scale Self-Attention-Based CNN Post-Filtering for AV1 Codec* published in **Mathematics**."
+  headline: "Paper accepted: *Multi-Scale Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec: Towards Enhanced Visual Quality and Overall Coding Performance* published in **Mathematics**."
   category: news2
 
 - date: "2025.05.14"
   headline: "Paper accepted: *DREFNet: Deep Residual Enhanced Feature GAN for VVC Compressed Video Quality Improvement* published in **Mathematics**."
   category: news2
 
+- date: "2025.04.25"
+  headline: "Paper accepted: *YOLO11-Driven Deep Learning Approach for Enhanced Detection and Visualization of Wrist Fractures in X-Ray Images* published in **Mathematics**."
+  category: news2
+
 - date: "2025.04.01"
-  headline: "Mubashir and Marine joined as interns. Welcome!"
+  headline: "Mubashir and Marine joined as intern. Welcome!"
   category: news2
 
 - date: "2025.03.01"
   headline: "Junghyun joined as master student. Welcome!"
   category: news2
 
+- date: "2025.01.18"
+  headline: "Xilong Liang presented three contributions at the **JVET meeting**."
+  category: news2
+
 - date: "2024.09.23"
   headline: "VCP-Lab has been selected as **LG Electronics' Target Lab**."
   category: news1
+
+- date: "2024.09.15"
+  headline: "Paper accepted: *Multi-Type Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec* published in **Mathematics**."
+  category: news2
+
+- date: "2024.09.14"
+  headline: "Paper accepted: *Versatile Video Coding-Post Processing Feature Fusion: A Post-Processing Convolutional Neural Network with Progressive Feature Fusion for Efficient Video Enhancement* published in **Applied Sciences**."
+  category: news2
 
 - date: "2024.09.01"
   headline: "Zezhen Gai and Zhao Bopu joined as master students. Welcome!"
   category: news2
 
+- date: "2024.06.25 ~ 28"
+  headline: "Xilong Liang and Seoyeon Jang presented papers at **The Korean Institute of Broadcast and Media Engineers Summer Conference 2024**."
+  category: news2
+
 - date: "2024.03.01"
   headline: "Tanni and Mubashir joined as Ph.D. students. Welcome!"
+  category: news2
+
+- date: "2024.02.19"
+  headline: "Paper accepted: *Block Partitioning Information-Based CNN Post-Filtering for EVC Baseline Profile* published in **Sensors**."
+  category: news2
+
+- date: "2023.11.22"
+  headline: "Xilong Liang presented *Introduction to Video Coding Compression Technology for Machines: FCVCM Standard* at the **Conference of the Korean Institute of Communication and Information Sciences**."
+  category: news2
+
+- date: "2023.10.16 ~ 20"
+  headline: "Prof. Choi participated in **MPEG Standard meeting** and presented an input contribution."
+  category: news2
+
+- date: "2023.09.01"
+  headline: "Seoyeon Jang joined as Research Assistant. Welcome!"
+  category: news2
+
+- date: "2023.09.01"
+  headline: "Xilong Liang joined as master student. Welcome!"
+  category: news2
+
+- date: "2023.07.17 ~ 21"
+  headline: "Prof. Choi participated in **MPEG Standard meeting** and presented two input contributions."
   category: news2
 
 - date: "2023.07.06"
@@ -51,9 +99,137 @@
   category: news1
 
 - date: "2023.06.14"
-  headline: "VP Lab has been officially renamed to **VCP-Lab** (Video Coding and Processing Lab)."
+  headline: "VP-Lab (Video Processing Lab.) has been officially renamed to **VCP-Lab** (Video Coding and Processing Lab)."
   category: news1
 
+- date: "2023.05.25"
+  headline: "Paper accepted: *High Quality Video Frames from VVC: A Deep Neural Network Approach* published in **IEEE Access**."
+  category: news2
+
+- date: "2023.04.18"
+  headline: "Paper accepted: *Efficient Feature Coding Based on Performance Analysis of Versatile Video Coding (VVC) in Video Coding for Machines (VCM)* published in **Multimedia Tools and Applications**."
+  category: news2
+
 - date: "2023.04.12"
-  headline: "VCP-Lab selected for IITP project: Development of Standard Technologies on next-generation media compression for Metaverse contents."
+  headline: "VCP-Lab has been selected for the **IITP project**: Development of Standard Technologies on next-generation media compression for transmission and storage of Metaverse contents."
   category: news1
+
+- date: "2023.03.01"
+  headline: "Video Processing Lab has moved to **Kyung Hee University**."
+  category: news1
+
+- date: "2022.12.01"
+  headline: "Paper accepted: *Neural Network based Video Coding in JVET* published in **Journal of Broadcast Engineering**."
+  category: news2
+
+- date: "2022.11.20"
+  headline: "Paper accepted: *A Study on Fast and Low-Complexity Algorithms for Versatile Video Coding* published in **Sensors**."
+  category: news2
+
+- date: "2022.10.24 ~ 28"
+  headline: "Prof. Choi participated in **MPEG Standard meeting**."
+  category: news2
+
+- date: "2022.07.18 ~ 22"
+  headline: "Prof. Choi participated in **MPEG Standard meeting**."
+  category: news2
+
+- date: "2022.04.29"
+  headline: "Prof. Choi received the **Excellence Award from ISO and IEC** in recognition of outstanding service to ISO/IEC JTC1/SC29."
+  category: news1
+
+- date: "2022.04.05"
+  headline: "Paper accepted: *Super-Resolution based Video Coding Scheme* accepted for presentation at **Challenge on Learned Image Compression Workshop, CVPR 2022**."
+  category: news2
+
+- date: "2022.03.23"
+  headline: "Paper accepted: *Depth-wise Split Unit Coding Order for Video Compression* published in **IEEE Transactions on Circuits and Systems for Video Technology**."
+  category: news2
+
+- date: "2022.01.19"
+  headline: "Paper accepted: *Low-Complexity Intra Coding in Versatile Video Coding* published in **IEEE Transactions on Consumer Electronics**."
+  category: news2
+
+- date: "2022.01.17 ~ 21"
+  headline: "Prof. Choi participated in **MPEG Standard meeting**."
+  category: news2
+
+- date: "2022.01.06"
+  headline: "Paper presented: *A study on impact of VVC coding tools for Video Coding for Machine* at **2022 International Workshop on Advanced Image Technology (IWAIT)**."
+  category: news2
+
+- date: "2022.01.03"
+  headline: "Paper accepted: *Low-Complexity Two-Step Lossless Depth Coding Using Coarse Lossy Coding* published in **Multimedia Tools and Applications**."
+  category: news2
+
+- date: "2021.12.21"
+  headline: "Hyunmin Cho joined as Research Assistant. Welcome!"
+  category: news2
+
+- date: "2021.11.01"
+  headline: "Hyeong Jong Go joined as Research Assistant. Welcome!"
+  category: news2
+
+- date: "2021.10.11 ~ 15"
+  headline: "Prof. Choi participated in **MPEG Standard meeting** as Chairman of Ad Hoc Group on **Essential Video Coding** standard."
+  category: news2
+
+- date: "2021.08.17 ~ 18"
+  headline: "Prof. Choi gave a lecture at **MPEG New Media Forum workshop**."
+  category: news2
+
+- date: "2021.08.03"
+  headline: "Prof. Choi participated in a panel discussion at **SPIE 2021** conference."
+  category: news2
+
+- date: "2021.07.30"
+  headline: "VP-Lab started **IITP project** on Next-Generation AI for Multi-Purpose Video Search."
+  category: news1
+
+- date: "2021.07.26"
+  headline: "VP-Lab started **ETRI's project** for the SW development of Video Coding for Machines (VCM)."
+  category: news1
+
+- date: "2021.07.19"
+  headline: "Yong-ho Bae and Min-jung Cho joined as Research Assistants. Welcome!"
+  category: news2
+
+- date: "2021.07.12 ~ 16"
+  headline: "Prof. Choi participated in **MPEG Standard meeting** as Chairman of Ad Hoc Group on **Essential Video Coding** standard."
+  category: news2
+
+- date: "2021.07.05"
+  headline: "Paper published at **IEEE International Conference on Multimedia (ICME) 2021**."
+  category: news2
+
+- date: "2021.06.01"
+  headline: "A proposal to the **National Research Foundation of Korea** was selected."
+  category: news1
+
+- date: "2021.05.23"
+  headline: "Prof. Choi gave a lecture on the development of AI-based video coding tools at the **New Media Forum workshop**."
+  category: news2
+
+- date: "2021.05.23"
+  headline: "Prof. Choi gave a lecture on standards and trends on AI-based video coding at **Hanyang University**."
+  category: news2
+
+- date: "2021.05.01"
+  headline: "A proposal to the **KISTI National Super Computing Center** was selected."
+  category: news1
+
+- date: "2021.05.01"
+  headline: "Paper accepted at **SPIE Optical Engineering + Applications conference 2021**."
+  category: news2
+
+- date: "2021.05.01"
+  headline: "Paper published in **SMPTE Motion Imaging Journal**."
+  category: news2
+
+- date: "2021.04.26 ~ 30"
+  headline: "Prof. Choi participated in **MPEG Standard meeting** as Chairman of Ad Hoc Group on **Essential Video Coding** standard."
+  category: news2
+
+- date: "2021.04.01"
+  headline: "Paper accepted at **IEEE International Conference on Multimedia (ICME) 2021**."
+  category: news2
