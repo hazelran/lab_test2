@@ -31,15 +31,23 @@ permalink: /publications/
       </div>
       {% endif %}
       <div class="pub-highlight-body">
-        {% if pub.description %}<p class="pub-highlight-desc">{{ pub.description }}</p>{% endif %}
-        <p class="pub-highlight-authors">{{ pub.authors }}</p>
-        <p class="pub-highlight-ref">
+        <div class="pub-title-line">
           <strong>
             {% if pub.url %}<a href="{{ pub.url }}" target="_blank">{% endif %}
-            {{ pub.journal }}{% if pub.year %}, ({{ pub.year }}){% endif %}
+            {{ pub.title }}
             {% if pub.url %}</a>{% endif %}
           </strong>
-        </p>
+        </div>
+        <div class="pub-authors" style="margin-bottom:4px;">{{ pub.authors }}</div>
+        <div class="pub-venue" style="margin-bottom:8px;">
+          <em>{{ pub.journal }}</em>{% if pub.volume %}, vol.&nbsp;{{ pub.volume }}{% endif %}{% if pub.pages %}, pp.&nbsp;{{ pub.pages }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}
+        </div>
+        {% if pub.description %}<p class="pub-highlight-desc">{{ pub.description }}</p>{% endif %}
+        <div class="pub-links">
+          {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" class="pub-link">PDF</a>{% endif %}
+          {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
+          {% if pub.arxiv %}<a href="{{ pub.arxiv }}" target="_blank" class="pub-link">ARXIV</a>{% endif %}
+        </div>
       </div>
     </div>
     {% endif %}
@@ -54,6 +62,7 @@ permalink: /publications/
 
     <ol class="pub-list">
       {% for pub in year_group.items %}
+      {% if pub.highlight != 1 %}
       {% assign abs_id = forloop.index | prepend: "abs-" | append: "-" | append: year_group.name %}
       {% assign bib_id = forloop.index | prepend: "bib-" | append: "-" | append: year_group.name %}
       <li class="pub-entry">
@@ -62,7 +71,7 @@ permalink: /publications/
         </div>
         <div class="pub-authors">{{ pub.authors }}</div>
         <div class="pub-venue">
-          <em>{{ pub.journal }}</em>{% if pub.volume %}, vol. {{ pub.volume }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}
+          <em>{{ pub.journal }}</em>{% if pub.volume %}, vol.&nbsp;{{ pub.volume }}{% endif %}{% if pub.pages %}, pp.&nbsp;{{ pub.pages }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}
         </div>
         <div class="pub-links">
           {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" class="pub-link">PDF</a>{% endif %}
@@ -78,6 +87,7 @@ permalink: /publications/
         <div class="pub-collapsible pub-bibtex" id="{{ bib_id }}"><pre>{{ pub.bibtex }}</pre></div>
         {% endif %}
       </li>
+      {% endif %}
       {% endfor %}
     </ol>
     {% endfor %}
