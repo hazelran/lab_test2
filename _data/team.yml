@@ -1,36 +1,101 @@
-- name: "Prof. Aiahn Kiho Choi"
+- name: "Prof. Kiho Choi"
   role: "Principal Investigator"
-  photo: "prof_choi.jpg"
+  photo: "Prof.jpg"
   email: aikiho@khu.ac.kr
-  info: "Professor, Department of Electronics and Information Convergence Engineering, Kyung Hee University"
-  bio: "Prof. Choi leads the VCP-Lab with expertise in video coding standards (VVC, AVC, HEVC, AV1), AI-based video compression, and international standardization (MPEG, JVET)."
+  info: "Associate Professor, Department of Electronic Engineering, Kyung Hee University"
 
-- name: "Tanni"
+- name: "Woowon Kwon"
+  role: "Researcher (Post Doc.)"
+  photo: "woowon_kwon.jpg"
+  email: woo_gwun@khu.ac.kr
+  info: "Research Interest: AI (deep learning) based video coding, Video coding standard"
+
+- name: "Tanni Das"
   role: "Ph.D. Student"
-  photo: "person_placeholder.jpg"
-  info: "Joined 2024.03"
+  photo: "Tanni.jpg"
+  email: tannidascu@gmail.com
+  info: "Research Interest: AI (deep learning) based video processing, AI (deep learning) based super resolution"
 
-- name: "Mubashir"
+- name: "Mubashir Tariq"
   role: "Ph.D. Student"
-  photo: "person_placeholder.jpg"
-  info: "Joined 2024.03"
-
-- name: "Junghyun"
-  role: "M.S. Student"
-  photo: "person_placeholder.jpg"
-  info: "Joined 2025.03"
+  photo: "Tariq.png"
+  email: mubashirtariq9@gmail.com
+  info: "Research Interest: AI (deep learning) based video processing, AI (deep learning) based super resolution"
 
 - name: "Zezhen Gai"
-  role: "M.S. Student"
-  photo: "person_placeholder.jpg"
-  info: "Joined 2024.09"
+  role: "Ph.D. Student"
+  photo: "zezhen.jpg"
+  email: wulangzz@naver.com
+  info: "Research Interest: AI (deep learning) based video processing"
 
 - name: "Zhao Bopu"
-  role: "M.S. Student"
-  photo: "person_placeholder.jpg"
-  info: "Joined 2024.09"
+  role: "Ph.D. Student"
+  photo: "bopu.png"
+  email: zhaobopuu@gmail.com
+  info: "Research Interest: AI (deep learning) based video processing"
 
-- name: "Marine"
-  role: "Intern"
+- name: "Junghyun Lee"
+  role: "M.S. Student"
+  photo: "junghyun_lee.jpg"
+  email: dlwjdgus0220@naver.com
+  info: "Research Interest: Signal processing based video coding"
+
+- name: "Marine Jeon"
+  role: "M.S. Student"
+  photo: "marine_jeon.jpg"
+  email: marinejeon@naver.com
+  info: "Research Interest: AI (deep learning) based video processing"
+
+- name: "Mubashir Hussain Shah"
+  role: "M.S. Student"
+  photo: "hussain.png"
+  email: shahmubashirhussain5@gmail.com
+  info: "Research Interest: AI (deep learning) based video processing"
+
+- name: "Qingran He"
+  role: "M.S. Student"
+  photo: "qingran_he.jpg"
+  email: hazelho@naver.com
+  info: "Research Interest: AI (deep learning) based video processing"
+
+- name: "Xilong Liang"
+  role: "Alumni"
+  photo: "xilong_liang.jpg"
+  email: xilongliang97@gmail.com
+  info: "Research Interest: Feature coding for video coding for machine"
+
+- name: "Hyunmin Cho"
+  role: "Undergraduate Research Assistant Alumni"
   photo: "person_placeholder.jpg"
-  info: "Joined 2025.04"
+  email: cho.hyun@icloud.com
+  info: "Research Interest: AI (deep learning) based SR processing"
+
+- name: "SooMin Han"
+  role: "Undergraduate Research Assistant Alumni"
+  photo: "person_placeholder.jpg"
+  email: m4a1carbin4@gmail.com
+  info: "Research Interest: AI based image training/generation, Linux system, Network backend"
+
+- name: "Seoyeon Jang"
+  role: "Undergraduate Research Assistant Alumni"
+  photo: "person_placeholder.jpg"
+  email: jdus81203@naver.com
+  info: "Research Interest: AI (deep learning) based video processing"
+
+- name: "Yongho Bae"
+  role: "Undergraduate Research Assistant Alumni"
+  photo: "person_placeholder.jpg"
+  email: yh3149@gachon.ac.kr
+  info: "Research Interest: AI (deep learning) based video processing"
+
+- name: "Minjung Cho"
+  role: "Undergraduate Research Assistant Alumni"
+  photo: "person_placeholder.jpg"
+  email: chomj31@gachon.ac.kr
+  info: "Research Interest: AI (deep learning) based video processing"
+
+- name: "Hyeong Jong Go"
+  role: "Undergraduate Research Assistant Alumni"
+  photo: "person_placeholder.jpg"
+  email: khjj07@gmail.com
+  info: "Research Interest: Parallel processing for video coding, SIMD optimization"
