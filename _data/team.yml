@@ -30,13 +30,13 @@
 
 - name: "Junghyun Lee"
   role: "M.S. Student"
-  photo: "junghyun_lee.jpg"
+  photo: "junghyun_lee.png"
   email: dlwjdgus0220@naver.com
   info: "Research Interest: Signal processing based video coding"
 
 - name: "Marine Jeon"
   role: "M.S. Student"
-  photo: "marine_jeon.jpg"
+  photo: "marine_jeon.png"
   email: marinejeon@naver.com
   info: "Research Interest: AI(Deep learning) based video processing"
 
@@ -48,7 +48,7 @@
 
 - name: "Qingran He"
   role: "M.S. Student"
-  photo: "qingran_he.jpg"
+  photo: "qingran_he.png"
   email: hazelho@naver.com
   info: "Research Interest: AI(Deep learning) based video processing"
 
