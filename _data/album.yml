@@ -1,0 +1,84 @@
+- title: "Lab dinner party"
+  date: "Sep. 17, 2025"
+  venue: "Kyung Hee University"
+  images:
+    - "Labdinner25.jpg"
+
+- title: "Graduation of Woowoen and Xilong"
+  date: "Aug. 21, 2025"
+  venue: "Kyung Hee University"
+  images:
+    - "Grad.jpg"
+    - "Grad1.png"
+
+- title: "ISO/IEC JTC 1/SC 151ˢᵗMPEG 39ᵗʰJVET meeting"
+  date: "Jun. 30-Jul. 6"
+  venue: "Daejeon Convention Center, Daejeon Korea"
+  images:
+    - "JVET-1.jpg"
+    - "JVET-2.jpg"
+    - "JVET-3.jpg"
+    - "JVET-4.jpg"
+    - "JVET-5.jpg"
+    - "JVET.jpg"
+
+- title: "The Korean Institute of Broadcast and Media Engineers Summer Conference 2025"
+  date: "Jun. 22-24 , 2025"
+  venue: "Lotte Hotel, Jeju Korea"
+  images:
+    - "SumCon25-1.jpg"
+    - "SumCon25.jpg"
+
+- title: "PH.D. Defense of Woowoen Kwon"
+  date: "May 8, 2025"
+  venue: "Kyung Hee University"
+  images:
+    - "PHDDefense.jpg"
+
+- title: "Korea-China Joint Seminar"
+  date: "Feb. 24 -28, 2025"
+  venue: "Tianjin Pan Pacific Hotel, Tianjin China"
+  images:
+    - "Ko-CnSem.jpg"
+
+- title: "KICS Fall Conference 2024"
+  date: "Nov. 20 - 22, 2024"
+  venue: "Lahan Select Hotel, Gyeongju Korea"
+  images:
+    - "KICS24.jpg"
+
+- title: "Lab dinner party"
+  date: "Oct. 24, 2024"
+  venue: "Kyung Hee University"
+  images:
+    - "Labdinner24.jpg"
+
+- title: "Meeting for LG target lab"
+  date: "Sep. 23, 2024"
+  venue: "Kyung Hee University"
+  description: "Dr. Lim visited the VCP Lab and gave an introduction to the LG CTO role and its work."
+  images:
+    - "LGLab-1.jpg"
+    - "LGLab.jpg"
+
+- title: "The Korean Institute of Broadcast and Media Engineers Summer Conference 2024"
+  date: "Jun. 25 - 28, 2024"
+  venue: "Maison Glad Hotel, Jeju Korea"
+  images:
+    - "SumCon24-1.jpg"
+    - "SumCon24-2.jpg"
+    - "SumCon24.jpg"
+
+- title: "Tanni Das, Master's graduation ceremony"
+  date: "Feb. 23, 2024"
+  venue: "Gachon University, Korea"
+  images:
+    - "TanniGrad-1.jpg"
+    - "TanniGrad.jpg"
+
+- title: "KICS Fall Conference 2023"
+  date: "Nov. 22 - 24, 2023"
+  venue: "Lahan Select Hotel, Gyeongju Korea"
+  images:
+    - "KICS23-1.jpg"
+    - "KICS23.jpg"
