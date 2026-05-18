@@ -1,0 +1,38 @@
+---
+layout: default
+title: Album
+permalink: /album/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Album</h1>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container" style="max-width:900px;">
+
+    <div class="section-card">
+      {% for event in site.data.album %}
+      <div class="album-event">
+        <h4>{{ event.title }}</h4>
+        <p class="text-muted-sm">Date: {{ event.date }}</p>
+        <p class="text-muted-sm">Venue: {{ event.venue }}</p>
+        {% if event.description %}
+        <p style="font-size:0.88rem; color:var(--muted);">{{ event.description }}</p>
+        {% endif %}
+
+        <div class="row album-photos">
+          {% for image in event.images %}
+          <div class="{% if event.images.size > 2 %}col-sm-4{% else %}col-sm-6{% endif %} col-xs-12">
+            <img src="{{ site.baseurl }}/images/album/{{ image }}" alt="{{ event.title }}">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

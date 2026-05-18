@@ -1,0 +1,50 @@
+---
+layout: default
+title: Media
+permalink: /media/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Media</h1>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container" style="max-width:900px;">
+
+    <div class="media-grid">
+      {% for item in site.data.media %}
+      <article class="media-card">
+        <h3>{{ item.title }}</h3>
+
+        {% if item.link %}
+        <p class="media-link">
+          <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
+        </p>
+        {% endif %}
+
+        {% if item.note %}
+        <p class="media-note">{{ item.note }}</p>
+        {% endif %}
+
+        {% if item.youtube %}
+        <div class="media-embed">
+          <iframe src="https://www.youtube.com/embed/{{ item.youtube }}"
+                  title="{{ item.title }}"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+        </div>
+        {% endif %}
+
+        {% if item.image %}
+        <div class="media-image">
+          <img src="{{ site.baseurl }}/images/media/{{ item.image }}" alt="{{ item.title }}">
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
