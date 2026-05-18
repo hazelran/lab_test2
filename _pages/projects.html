@@ -1,0 +1,65 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Projects</h1>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container" style="max-width:900px;">
+
+    <div class="section-card">
+      <h3>Project in progress</h3>
+
+      {% assign active_projects = site.data.projects | where: "status", "in_progress" %}
+      {% for project in active_projects %}
+      <div class="pub-item project-item">
+        <div class="project-logo">
+          {% if project.logo %}
+          <img src="{{ site.baseurl }}/images/logopic/{{ project.logo }}" alt="{{ project.sponsor }}">
+          {% endif %}
+        </div>
+        <div class="project-body">
+          <div class="pub-title">{{ project.title }}</div>
+          <div class="pub-meta">
+            Supported by <strong>{{ project.sponsor }}</strong>{% if project.role %}, {{ project.role }}{% endif %}{% if project.period %}, {{ project.period }}{% endif %}
+          </div>
+          {% if project.collaborators %}
+          <div class="pub-meta">Collaborators: {{ project.collaborators }}</div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="section-card mt-3">
+      <h3>Completed projects</h3>
+
+      {% assign completed_projects = site.data.projects | where: "status", "completed" %}
+      {% for project in completed_projects %}
+      <div class="pub-item project-item">
+        <div class="project-logo">
+          {% if project.logo %}
+          <img src="{{ site.baseurl }}/images/logopic/{{ project.logo }}" alt="{{ project.sponsor }}">
+          {% endif %}
+        </div>
+        <div class="project-body">
+          <div class="pub-title">{{ project.title }}</div>
+          <div class="pub-meta">
+            Supported by <strong>{{ project.sponsor }}</strong>{% if project.role %}, {{ project.role }}{% endif %}{% if project.period %}, {{ project.period }}{% endif %}
+          </div>
+          {% if project.collaborators %}
+          <div class="pub-meta">Collaborators: {{ project.collaborators }}</div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
