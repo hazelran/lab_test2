@@ -1,0 +1,26 @@
+---
+layout: default
+title: Standardization
+permalink: /standardization/
+---
+
+<div class="page-header">
+  <div class="container">
+    <h1>Standardization</h1>
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="container" style="max-width:900px;">
+
+    <div class="section-card mt-3">
+      <h3>Contributions on MPEG / ITU-T / JVET / JVC-TC Standardization</h3>
+      <ul class="standardization-list">
+        {% for contribution in site.data.standardization %}
+        <li>{{ contribution }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>
