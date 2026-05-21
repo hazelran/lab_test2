@@ -16,45 +16,8 @@ permalink: /publications/
 <div class="content-section">
   <div class="container pub-container">
 
-    <!-- ===== HIGHLIGHTS ===== -->
-    <h2 class="pub-section-title">Group Highlights</h2>
-    <p style="color:var(--muted); font-size:0.9rem; margin-bottom:1.5rem;">
-      (For a full list of publications, see <a href="#list-of-publications">below</a>)
-    </p>
-
-    {% for pub in site.data.publist %}
-    {% if pub.highlight == 1 %}
-    <div class="pub-highlight-card">
-      {% if pub.image %}
-      <div class="pub-highlight-img">
-        <img src="{{ site.baseurl }}/images/pubpic/{{ pub.image }}" alt="{{ pub.title }}" />
-      </div>
-      {% endif %}
-      <div class="pub-highlight-body">
-        <div class="pub-title-line">
-          <strong>
-            {% if pub.url %}<a href="{{ pub.url }}" target="_blank">{% endif %}
-            {{ pub.title }}
-            {% if pub.url %}</a>{% endif %}
-          </strong>
-        </div>
-        <div class="pub-authors" style="margin-bottom:4px;">{{ pub.authors }}</div>
-        <div class="pub-venue" style="margin-bottom:8px;">
-          <em>{{ pub.journal }}</em>{% if pub.volume %}, vol.&nbsp;{{ pub.volume }}{% endif %}{% if pub.pages %}, pp.&nbsp;{{ pub.pages }}{% endif %}{% if pub.year %}, {{ pub.year }}{% endif %}
-        </div>
-        {% if pub.description %}<p class="pub-highlight-desc">{{ pub.description }}</p>{% endif %}
-        <div class="pub-links">
-          {% if pub.pdf %}<a href="{{ pub.pdf }}" target="_blank" class="pub-link">PDF</a>{% endif %}
-          {% if pub.url %}<a href="{{ pub.url }}" target="_blank" class="pub-link">DOI</a>{% endif %}
-          {% if pub.arxiv %}<a href="{{ pub.arxiv }}" target="_blank" class="pub-link">ARXIV</a>{% endif %}
-        </div>
-      </div>
-    </div>
-    {% endif %}
-    {% endfor %}
-
     <!-- ===== FULL LIST ===== -->
-    <h2 class="pub-section-title" id="list-of-publications" style="margin-top:3rem;">List of Publications</h2>
+    <h2 class="pub-section-title" id="list-of-publications">List of Publications</h2>
 
     {% assign publication_categories = "International Journal|International Conference|Domestic Journal|Domestic Conference" | split: "|" %}
     {% for category in publication_categories %}
