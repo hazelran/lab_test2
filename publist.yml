@@ -1,0 +1,1231 @@
+---
+- title: 'Swin–YOLOv12: A Hybrid Transformer-Based Deep Learning Approach for Enhanced Real-Time Brain Tumor Detection in MRI Images'
+  authors: Mubashar Tariq and Kiho Choi*
+  journal: Mathematics
+  volume: '14'
+  pages: no. 9
+  year: 2026
+  category: International Journal
+  id: IJ30
+  theme: ai
+  url: https://doi.org/10.3390/math14091447
+  description: Brain tumors (BTs) arise from the abnormal growth of cells within brain tissue and may spread rapidly, making them a major cause of mortality worldwide. Early detection of BTs remains highly challenging due to the brain’s complex structure and the heterogeneous nature of tumors. Magnetic Resonance Imaging (MRI) provides detailed information about tumor size, location, and shape, thereby supporting clinical decision-making for treatments such as chemotherapy, radiation therapy, and surgery. Traditional machine learning (ML) approaches mainly rely on manual feature extraction, whereas recent advances in Computer-Aided Diagnosis (CAD) and deep learning (DL) have enabled more accurate detection of small and complex tumor regions. To improve automated tumor detection, we propose a hybrid Swin–YOLO framework that combines the Swin Transformer (ST) with the latest CNN-based YOLOv12 model. In this framework, the Swin Transformer serves as the main backbone for feature extraction, while the Feature Pyramid Network (FPN) and Path Aggregation Network (PANet) are employed in the neck to better capture multi-scale features. For training, we used the publicly available Br35H dataset and applied data augmentation to enhance the model’s robustness and generalization capability. The experimental results show that the proposed framework achieved 99.7% accuracy, 99.4% mAP@50, and 87.2% mAP@50:95. Furthermore, we incorporated Explainable Artificial Intelligence (XAI) techniques, including Grad-CAM and SHAP, to improve the interpretability of the model by visually highlighting the tumor regions that contributed most to the prediction. In addition, we developed NeuroVision AI, a web-based application designed to support faster and more accurate clinical decision-making. Although the proposed model demonstrated strong performance on the dataset, these results should be interpreted within the context of the current experimental setting.
+  bibtex: |-
+    @article{IJ30,
+      author={Mubashar Tariq and Kiho Choi},
+      title={Swin–YOLOv12: A Hybrid Transformer-Based Deep Learning Approach for Enhanced Real-Time Brain Tumor Detection in MRI Images},
+      journal={Mathematics},
+      year={2026},
+      volume={14},
+      pages={no. 9},
+      doi={10.3390/math14091447}
+    }
+- title: A Study on Advances in Whole Slide Image Compression
+  authors: Tanni Das and Kiho Choi*
+  journal: IEEE Access
+  volume: '13'
+  pages: 
+  year: 2025
+  category: International Journal
+  id: IJ29
+  theme: ai
+  url: https://ieeexplore.ieee.org/document/11270830
+  description: 'Whole Slide Imaging (WSI), which enables the scanning and archiving of entire tissue slides at ultra-high resolution, has completely changed digital pathology by allowing pathologists to visually walk through the entire tissue sample and investigate regions of interest (ROI). Due to the technological advancements in digital scanners, picture visualization methods, and the integration of artificial intelligence-derived algorithms into these systems, its more recent applications offer promising futures. The huge storage requirements of these large-scale images, however, pose significant challenges for storage, transmission, and retrieval. This paper offers a thorough analysis of the related and recent WSI compression methods created for scanners. The main objective of this analysis is to offer a thorough overview of the current approaches and potential future paths in this quickly developing topic. This work has highlighted the key requirements for effective WSI compression, considering the need to compromise between high compression ratios and little loss of visual and diagnostic quality. Additionally, this study seeks to offer useful insights into the developments achieved in WSI compression algorithms for scanners, illuminating the present difficulties and potential future developments in this important area of digital pathology.
+
+'
+  bibtex: |
+    @ARTICLE{11270830,
+      author={Das, Tanni and Choi, Kiho},
+      journal={IEEE Access},
+      title={A Study on Advances in Whole Slide Image Compression},
+      year={2025},
+      volume={13},
+      number={},
+      pages={202807-202823},
+      keywords={Transform coding;Image coding;Pathology;DICOM;Image resolution;Image color analysis;Biomedical imaging;Propagation losses;Interoperability;Digital images;Digital pathology;whole slide image;scanners;image compression;JPEG;HEVC},
+      doi={10.1109/ACCESS.2025.3637830}
+    }
+- title: 'GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing'
+  authors: Bopu Zhao, Woowoen Gwun, Kiho Choi*
+  journal: IEEE Access
+  volume: '13'
+  pages: 138601-138621
+  year: 2025
+  highlight: 1
+  image: ghmsa_net.png
+  category: International Journal
+  id: IJ28
+  theme: ai
+  url: https://ieeexplore.ieee.org/abstract/document/11114914
+  description: 'The AOMedia Video 1 (AV1) codec achieves excellent compression efficiency but often introduces visually distracting artifacts at high quantization parameters (QPs), impairing perceptual quality. We propose Gated Hierarchical Multi-Scale Attention Network (GHMSA-Net), a post-processing model that leverages multi-scale self-attention and dynamic gating to adaptively suppress compression artifacts across varying quantization levels while preserving structural fidelity. The network architecture captures both fine-grained details and global context through a hierarchical attention design, enabling robust restoration under diverse compression strengths. We also explore an efficient training scheme that combines unified pretraining on a representative QP with lightweight QP-specific fine-tuning, offering a favorable trade-off between performance and training cost. Results show that, relative to the AV1 anchor, GHMSA-Net achieves BD-rate savings of 11.79% (Y), 21.24% (Cb), and 20.11% (Cr) for BD-PSNR; 10.55% (Y), 22.49% (Cb), and 21.44% (Cr) for BD-MS-SSIM; and 15.44% for BD-VMAF across QPs 20, 32, 43, 55, and 63. Visual assessments validate the model''s effectiveness in artifact removal and perceptual quality enhancement.
+
+'
+  bibtex: "@ARTICLE{11114914,\n  author={Zhao, Bopu and Gwun, Woowoen and Choi, Kiho},\n  journal={IEEE Access}, \n  title={GHMSA-Net: Gated Hierarchical Multi-Scale Self-Attention for Perceptually-Guided AV1 Post-Processing}, \n  year={2025},\n  volume={13},\n  number={},\n  pages={138601-138621},\n  keywords={Filters;Convolutional neural networks;Codecs;Encoding;Decoding;Attention mechanisms;Training;Standards;Adaptation models;Videos;Video compression;post-processing;convolutional neural networks;attention mechanism},\n  doi={10.1109/ACCESS.2025.3596303}\n}\n"
+- title: 'DRGNet: Enhanced VVC Reconstructed Frames Using Dual-Path Residual Gating for High-Resolution Video'
+  authors: Zezhen Gai, Tanni Das, and Kiho Choi*
+  journal: Sensors
+  volume: '25'
+  pages: no. 12
+  year: 2025
+  highlight: 1
+  category: International Journal
+  id: IJ27
+  theme: ai
+  url: https://doi.org/10.3390/s25123744
+  description: In recent years, with the rapid development of the Internet and mobile devices, the high-resolution video industry has ushered in a booming golden era, making video content the primary driver of Internet traffic. This trend has spurred continuous innovation in efficient video coding technologies, such as Advanced Video Coding/H.264 (AVC), High Efficiency Video Coding/H.265 (HEVC), and Versatile Video Coding/H.266 (VVC), which significantly improves compression efficiency while maintaining high video quality. However, during the encoding process, compression artifacts and the loss of visual details remain unavoidable challenges, particularly in high-resolution video processing, where the massive amount of image data tends to introduce more artifacts and noise, ultimately affecting the user’s viewing experience. Therefore, effectively reducing artifacts, removing noise, and minimizing detail loss have become critical issues in enhancing video quality. To address these challenges, this paper proposes a post-processing method based on Convolutional Neural Network (CNN) that improves the quality of VVC-reconstructed frames through deep feature extraction and fusion. The proposed method is built upon a high-resolution dual-path residual gating system, which integrates deep features from different convolutional layers and introduces convolutional blocks equipped with gating mechanisms. By ingeniously combining gating operations with residual connections, the proposed approach ensures smooth gradient flow while enhancing feature selection capabilities. It selectively preserves critical information while effectively removing artifacts. Furthermore, the introduction of residual connections reinforces the retention of original details, achieving high-quality image restoration. Under the same bitrate conditions, the proposed method significantly improves the Peak Signal-to-Noise Ratio (PSNR) value, thereby optimizing video coding quality and providing users with a clearer and more detailed visual experience. Extensive experimental results demonstrate that the proposed method achieves outstanding performance across Random Access (RA), Low Delay B-frame (LDB), and All Intra (AI) configurations, achieving BD-Rate improvements of 6.1%, 7.36%, and 7.1% for the luma component, respectively, due to the remarkable PSNR enhancement.
+  bibtex: |-
+    @article{IJ27,
+      author={Zezhen Gai, Tanni Das, and Kiho Choi},
+      title={DRGNet: Enhanced VVC Reconstructed Frames Using Dual-Path Residual Gating for High-Resolution Video},
+      journal={Sensors},
+      year={2025},
+      volume={25},
+      pages={no. 12},
+      doi={10.3390/s25123744}
+    }
+- title: 'Multi-Scale Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec: Towards Enhanced Visual Quality and Overall Coding Performance'
+  authors: Woowoen Gwun, Kiho Choi*, and Gwang Hoon Park*
+  journal: Mathematics
+  volume: '13'
+  pages: no. 11
+  year: 2025
+  highlight: 1
+  category: International Journal
+  id: IJ26
+  theme: ai
+  url: https://doi.org/10.3390/math13111782
+  description: 'This paper presents MS-MTSA, a multi-scale multi-type self-attention network designed to enhance AV1-compressed video through targeted post-filtering. The objective is to address two persistent artifact issues observed in our previous MTSA model: visible seams at patch boundaries and grid-like distortions from upsampling. To this end, MS-MTSA introduces two key architectural enhancements. First, multi-scale block-wise self-attention applies sequential attention over 16 × 16 and 12 × 12 blocks to better capture local context and improve spatial continuity. Second, refined patch-wise self-attention includes a lightweight convolutional refinement layer after upsampling to suppress structured artifacts in flat regions. These targeted modifications significantly improve both perceptual and quantitative quality. The proposed network achieves BD-rate reductions of 12.44% for Y, 21.70% for Cb, and 19.90% for Cr compared to the AV1 anchor. Visual evaluations confirm improved texture fidelity and reduced seam artifacts, demonstrating the effectiveness of combining multi-scale attention and structural refinement for artifact suppression in compressed video.'
+  bibtex: |-
+    @article{IJ26,
+      author={Woowoen Gwun, Kiho Choi, and Gwang Hoon Park},
+      title={Multi-Scale Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec: Towards Enhanced Visual Quality and Overall Coding Performance},
+      journal={Mathematics},
+      year={2025},
+      volume={13},
+      pages={no. 11},
+      doi={10.3390/math13111782}
+    }
+- title: 'DREFNet: Deep Residual Enhanced Feature GAN for VVC Compressed Video Quality Improvement'
+  authors: Tanni Das and Kiho Choi*
+  journal: Mathematics
+  volume: '13'
+  pages: no. 10
+  year: 2025
+  highlight: 1
+  category: International Journal
+  id: IJ25
+  theme: ai
+  url: https://doi.org/10.3390/math13101609
+  description: In recent years, the use of video content has experienced exponential growth. The rapid growth of video content has led to an increased reliance on various video codecs for efficient compression and transmission. However, several challenges are associated with codecs such as H.265/High Efficiency Video Coding and H.266/Versatile Video Coding (VVC) that can impact video quality and performance. One significant challenge is the trade-off between compression efficiency and visual quality. While advanced codecs can significantly reduce file sizes, they introduce artifacts such as blocking, blurring, and color distortion, particularly in high-motion scenes. Different compression tools in modern video codecs are vital for minimizing artifacts that arise during the encoding and decoding processes. While the advanced algorithms used by these modern codecs can effectively decrease file sizes and enhance compression efficiency, they frequently find it challenging to eliminate artifacts entirely. By utilizing advanced techniques such as post-processing after the initial decoding, this method can significantly improve visual clarity and restore details that may have been compromised during compression. In this paper, we introduce a Deep Residual Enhanced Feature Generative Adversarial Network as a post-processing method aimed at further improving the quality of reconstructed frames from the advanced codec VVC. By utilizing the benefits of Deep Residual Blocks and Enhanced Feature Blocks, the generator network aims to make the reconstructed frame as similar as possible to the original frame. The discriminator network, a crucial element of our proposed method, plays a vital role in guiding the generator by evaluating the authenticity of generated frames. By distinguishing between fake and original frames, the discriminator enables the generator to improve the quality of its output. This feedback mechanism ensures that the generator learns to create more realistic frames, ultimately enhancing the overall performance of the model. The proposed method shows significant gain for Random Access (RA) and All Intra (AI) configurations while improving Video Multimethod Assessment Fusion (VMAF) and Multi-Scale Structural Similarity Index Measure (MS-SSIM). Considering VMAF, our proposed method can obtain 13.05% and 11.09% Bjøntegaard Delta Rate (BD-Rate) gain for RA and AI configuration, respectively. In the case of the luma component MS-SSIM, RA and AI configurations get, respectively, 5.00% and 5.87% BD-Rate gain after employing our suggested proposed network.
+  bibtex: |-
+    @article{IJ25,
+      author={Tanni Das and Kiho Choi},
+      title={DREFNet: Deep Residual Enhanced Feature GAN for VVC Compressed Video Quality Improvement},
+      journal={Mathematics},
+      year={2025},
+      volume={13},
+      pages={no. 10},
+      doi={10.3390/math13101609}
+    }
+- title: YOLO11-Driven Deep Learning Approach for Enhanced Detection and Visualization of Wrist Fractures in X-Ray Images
+  authors: Mubashar Tariq and Kiho Choi*
+  journal: Mathematics
+  volume: '13'
+  pages: no. 9
+  year: 2025
+  category: International Journal
+  id: IJ24
+  theme: ai
+  url: https://doi.org/10.3390/math13091419
+  description: Wrist fractures, especially those involving the elbow and distal radius, are the most common injuries in children, teenagers, and young adults, with the highest occurrence rates during adolescence. However, the demand for medical imaging and the shortage of radiologists make it challenging to ensure accurate diagnosis and treatment. This study explores how AI-driven approaches are used to enhance fracture detection and improve diagnostic accuracy. In this paper, we propose the latest version of YOLO (i.e., YOLO11) with an attention module, designed to refine detection correctness. We integrated attention mechanisms, such as Global Attention Mechanism (GAM), channel attention, and spatial attention with Residual Network (ResNet), to enhance feature extraction. Moreover, we developed the ResNet_GAM model, which combines ResNet with GAM to improve feature learning and model performance. In this paper, we apply a data augmentation process to the publicly available GRAZPEDWRI-DX dataset, which is widely used for detecting radial bone fractures in X-ray images of children. Experimental findings indicate that integrating Squeeze-and-Excitation (SE_BLOCK) into YOLO11 significantly increases model efficiency. Our experimental results attain state-of-the-art performance, measured by the mean average precision (mAP50). Through extensive experiments, we found that our model achieved the highest mAP50 of 0.651. Meanwhile, YOLO11 with GAM and ResNet_GAM attained a maximum precision of 0.799 and a recall of 0.639 across all classes on the given dataset. The potential of these models to improve pediatric wrist imaging is significant, as they offer better detection accuracy while still being computationally efficient. Additionally, to help surgeons identify and diagnose fractures in patient wrist X-ray images, we provide a Fracture Detection Web-based Interface based on the result of the proposed method. This interface reduces the risk of misinterpretation and provides valuable information to assist in making surgical decisions.
+  bibtex: |-
+    @article{IJ24,
+      author={Mubashar Tariq and Kiho Choi},
+      title={YOLO11-Driven Deep Learning Approach for Enhanced Detection and Visualization of Wrist Fractures in X-Ray Images},
+      journal={Mathematics},
+      year={2025},
+      volume={13},
+      pages={no. 9},
+      doi={10.3390/math13091419}
+    }
+- title: Multi-Type Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec
+  authors: Woowoen Gwun, Kiho Choi*, and Gwang Hoon Park*
+  journal: Mathematics
+  volume: '12'
+  pages: no. 18
+  year: 2024
+  category: International Journal
+  id: IJ23
+  theme: ai
+  url: https://doi.org/10.3390/math12182874
+  description: Over the past few years, there has been substantial interest and research activity surrounding the application of Convolutional Neural Networks (CNNs) for post-filtering in video coding. Most current research efforts have focused on using CNNs with various kernel sizes for post-filtering, primarily concentrating on High-Efficiency Video Coding/H.265 (HEVC) and Versatile Video Coding/H.266 (VVC). This narrow focus has limited the exploration and application of these techniques to other video coding standards such as AV1, developed by the Alliance for Open Media, which offers excellent compression efficiency, reducing bandwidth usage and improving video quality, making it highly attractive for modern streaming and media applications. This paper introduces a novel approach that extends beyond traditional CNN methods by integrating three different self-attention layers into the CNN framework. Applied to the AV1 codec, the proposed method significantly improves video quality by incorporating these distinct self-attention layers. This enhancement demonstrates the potential of self-attention mechanisms to revolutionize post-filtering techniques in video coding beyond the limitations of convolution-based methods. The experimental results show that the proposed network achieves an average BD-rate reduction of 10.40% for the Luma component and 19.22% and 16.52% for the Chroma components compared to the AV1 anchor. Visual quality assessments further validated the effectiveness of our approach, showcasing substantial artifact reduction and detail enhancement in videos.
+  bibtex: |-
+    @article{IJ23,
+      author={Woowoen Gwun, Kiho Choi, and Gwang Hoon Park},
+      title={Multi-Type Self-Attention-Based Convolutional-Neural-Network Post-Filtering for AV1 Codec},
+      journal={Mathematics},
+      year={2024},
+      volume={12},
+      pages={no. 18},
+      doi={10.3390/math12182874}
+    }
+- title: 'Versatile Video Coding-Post Processing Feature Fusion: A Post-Processing Convolutional Neural Network with Progressive Feature Fusion for Efficient Video Enhancement'
+  authors: Tanni Das, Xilong Liang, Kiho Choi*
+  journal: Applied Sciences
+  volume: '14'
+  pages: no. 18
+  year: 2024
+  category: International Journal
+  id: IJ22
+  theme: ai
+  url: https://doi.org/10.3390/app14188276
+  bibtex: |-
+    @article{IJ22,
+      author={Tanni Das and Xilong Liang and Kiho Choi},
+      title={Versatile Video Coding-Post Processing Feature Fusion: A Post-Processing Convolutional Neural Network with Progressive Feature Fusion for Efficient Video Enhancement},
+      journal={Applied Sciences},
+      year={2024},
+      volume={14},
+      pages={no. 18},
+      doi={10.3390/app14188276}
+    }
+  description: Advanced video codecs such as High Efficiency Video Coding/H.265 (HEVC) and Versatile Video Coding/H.266 (VVC) are vital for streaming high-quality online video content, as they compress and transmit data efficiently. However, these codecs can occasionally degrade video quality by adding undesirable artifacts such as blockiness, blurriness, and ringing, which can detract from the viewer’s experience. To ensure a seamless and engaging video experience, it is essential to remove these artifacts, which improves viewer comfort and engagement. In this paper, we propose a deep feature fusion based convolutional neural network (CNN) architecture (VVC-PPFF) for post-processing approach to further enhance the performance of VVC. The proposed network, VVC-PPFF, harnesses the power of CNNs to enhance decoded frames, significantly improving the coding efficiency of the state-of-the-art VVC video coding standard. By combining deep features from early and later convolution layers, the network learns to extract both low-level and high-level features, resulting in more generalized outputs that adapt to different quantization parameter (QP) values. The proposed VVC-PPFF network achieves outstanding performance, with Bjøntegaard Delta Rate (BD-Rate) improvements of 5.81% and 6.98% for luma components in random access (RA) and low-delay (LD) configurations, respectively, while also boosting peak signal-to-noise ratio (PSNR).
+- title: Block Partitioning Information-Based CNN Post-Filtering for EVC Baseline Profile
+  authors: Kiho Choi*
+  journal: Sensors
+  volume: '24'
+  pages: no. 4
+  year: 2024
+  highlight: 1
+  category: International Journal
+  id: IJ21
+  theme: standards
+  url: https://doi.org/10.3390/s24041336
+  description: The need for efficient video coding technology is more important than ever in the current scenario where video applications are increasing worldwide, and Internet of Things (IoT) devices are becoming widespread. In this context, it is necessary to carefully review the recently completed MPEG-5 Essential Video Coding (EVC) standard because the EVC Baseline profile is customized to meet the specific requirements needed to process IoT video data in terms of low complexity. Nevertheless, the EVC Baseline profile has a notable disadvantage. Since it is a codec composed only of simple tools developed over 20 years, it tends to represent numerous coding artifacts. In particular, the presence of blocking artifacts at the block boundary is regarded as a critical issue that must be addressed. To address this, this paper proposes a post-filter using a block partitioning information-based Convolutional Neural Network (CNN). The proposed method in the experimental results objectively shows an approximately 0.57 dB for All-Intra (AI) and 0.37 dB for Low-Delay (LD) improvements in each configuration by the proposed method when compared to the pre-post-filter video, and the enhanced PSNR results in an overall bitrate reduction of 11.62% for AI and 10.91% for LD in the Luma and Chroma components, respectively. Due to the huge improvement in the PSNR, the proposed method significantly improved the visual quality subjectively, particularly in blocking artifacts at the coding block boundary.
+  bibtex: |-
+    @article{IJ21,
+      author={Kiho Choi},
+      title={Block Partitioning Information-Based CNN Post-Filtering for EVC Baseline Profile},
+      journal={Sensors},
+      year={2024},
+      volume={24},
+      pages={no. 4},
+      doi={10.3390/s24041336}
+    }
+- title: 'High Quality Video Frames from VVC: A Deep Neural Network Approach'
+  authors: Tanni Das, Kiho Choi*, and Jaeyoung Choi*
+  journal: IEEE Access
+  volume: '11'
+  pages: 54254-54264
+  year: 2023
+  category: International Journal
+  id: IJ20
+  theme: ai
+  url: https://doi.org/10.1109/access.2023.3281975
+  description: In recent years, video content has become a significant contributor to Internet traffic, prompting the development of efficient codecs, such as High Efficiency Video Coding (HEVC) and Versatile Video Coding (VVC), to reduce bandwidth usage and storage requirements. However, these video coding standards still exhibit quality degradation and artifacts in the decoded frames. To address this issue, researchers have introduced several network architectures based on deep-learning algorithms; however, most of them focus on in-loop filtering, which requires additional bits to transmit filter information from the encoder to the decoder under a video-coding framework. In this paper, we propose a neural-network-based post-processing method to enhance the decoded frames. In the experimental result, the proposed model achieves a significant bitrate reduction, as measured by Bjøntegaard Delta of 4.54%, 4.13%, and 5.21% for random access (RA), low-delay (LD), and all-intra (AI) configurations, respectively, while also improving peak signal-to-noise ratio (PSNR).
+  bibtex: |-
+    @article{IJ20,
+      author={Tanni Das, Kiho Choi, and Jaeyoung Choi},
+      title={High Quality Video Frames from VVC: A Deep Neural Network Approach},
+      journal={IEEE Access},
+      year={2023},
+      volume={11},
+      pages={54254-54264},
+      doi={10.1109/access.2023.3281975}
+    }
+- title: Efficient Feature Coding Based on Performance Analysis of Versatile Video Coding (VVC) in Video Coding for Machines (VCM)
+  authors: Jin Young Lee, Yongho Choi, The Van Le, and Kiho Choi*
+  journal: Multimedia Tools and Application
+  year: 2023
+  category: International Journal
+  id: IJ19
+  theme: vcm
+  url: https://doi.org/10.1007/s11042-023-15409-7
+  description: Conventional video coding standards offer efficient compression of traditional 2D images. In particular, versatile video coding (VVC), which is the latest video coding standard, achieves very high compression efficiency, while maintaining high visual quality for humans. On the other hand, video coding for machines (VCM), which is developed as a new style of a video coding standard, mainly targets efficient compression of features extracted from deep neural networks. It generally employs VVC for feature coding. However, since VVC was developed for traditional images, an influence of the VVC based feature coding on VCM is not clear. Therefore, this paper proposes efficient tool combination by analyzing performance of VVC coding tools for the VCM feature coding, and then applies it into video captioning, which automatically generates natural language descriptions from videos. Experimental results show that the proposed tool combination is very efficient, in terms of coding performance and encoding complexity.
+  bibtex: |-
+    @article{IJ19,
+      author={Jin Young Lee, Yongho Choi, The Van Le, and Kiho Choi},
+      title={Efficient Feature Coding Based on Performance Analysis of Versatile Video Coding (VVC) in Video Coding for Machines (VCM)},
+      journal={Multimedia Tools and Application},
+      year={2023},
+      doi={10.1007/s11042-023-15409-7}
+    }
+- title: A Study on Fast and Low-Complexity Algorithms for Versatile Video Coding
+  authors: Kiho Choi*
+  journal: Sensors
+  volume: '22'
+  pages: no. 22
+  year: 2022
+  category: International Journal
+  id: IJ18
+  theme: standards
+  url: https://doi.org/10.3390/s22228990
+  description: Versatile Video Coding (VVC)/H.266, completed in 2020, provides half the bitrate of the previous video coding standard (i.e., High-Efficiency Video Coding (HEVC)/H.265) while maintaining the same visual quality. The primary goal of VVC/H.266 is to achieve a compression capability that is noticeably better than that of HEVC/H.265, as well as the functionality to support a variety of applications with a single profile. Although VVC/H.266 has improved its coding performance by incorporating new advanced technologies with flexible partitioning, the increased encoding complexity has become a challenging issue in practical market usage. To address the complexity issue of VVC/H.266, significant efforts have been expended to develop practical methods for reducing the encoding and decoding processes of VVC/H.266. In this study, we provide an overview of the VVC/H.266 standard, and compared with previous video coding standards, examine a key challenge to VVC/H.266 coding. Furthermore, we survey and present recent technical advances in fast and low-complexity VVC/H.266, focusing on key technical areas.
+  bibtex: |-
+    @article{IJ18,
+      author={Kiho Choi},
+      title={A Study on Fast and Low-Complexity Algorithms for Versatile Video Coding},
+      journal={Sensors},
+      year={2022},
+      volume={22},
+      pages={no. 22},
+      doi={10.3390/s22228990}
+    }
+- title: Depth-wise Split Unit Coding Order for Video Compression
+  authors: Yinji Piao, Kiho Choi*, Kwang Pyo Choi, Minsoo Park and Min Woo Park
+  journal: IEEE Transactions on Circuits and Systems for Video Technology
+  volume: '32'
+  pages: 6375-6384
+  year: 2022
+  highlight: 1
+  category: International Journal
+  id: IJ17
+  theme: standards
+  url: https://doi.org/10.1109/tcsvt.2022.3162918
+  description: In this paper, we propose a depth-wise flexible block processing method called split unit coding order (SUCO) for video coding. Conventionally, block-based image and video compression frameworks always apply raster scans to process blocks in order from left to right. Owing to the fixed coding order, the available information for prediction in the coding blocks is limited to adjacent blocks on the left and top. To address the limitations of block-based images and video compression frameworks, the proposed SUCO provides more flexibility in handling coding block sequences than predicted on the left and top, and thus coding blocks can take advantage of adjacent right information, such as reconstructed pixels and motion information. The flexibility is achieved by depth-wise signaling of preferred coding order for the given partitions. The experiment results demonstrate that the proposed SUCO can effectively improve the coding efficiency of both intra and inter prediction in the latest video coding standards.
+  bibtex: |-
+    @article{IJ17,
+      author={Yinji Piao, Kiho Choi, Kwang Pyo Choi, Minsoo Park and Min Woo Park},
+      title={Depth-wise Split Unit Coding Order for Video Compression},
+      journal={IEEE Transactions on Circuits and Systems for Video Technology},
+      year={2022},
+      volume={32},
+      pages={6375-6384},
+      doi={10.1109/tcsvt.2022.3162918}
+    }
+- title: Low-Complexity Intra Coding in Versatile Video Coding
+  authors: Kiho Choi, The Van Le, Yongho Choi, and Jin Young Lee
+  journal: IEEE Transactions on Consumer Electronics
+  volume: '68'
+  pages: 119-126
+  year: 2022
+  highlight: 1
+  category: International Journal
+  id: IJ16
+  theme: standards
+  url: https://doi.org/10.1109/tce.2022.3145397
+  description: Versatile Video Coding (VVC) was finalized in 2020 and offered promising coding efficiency with a bitrate reduction of about 50% for same video quality as High Efficiency Video Coding. However, its high encoding complexity is a heavy burden on real-time applications. In particular, the very high complexity in intra coding can be a big barrier into market entry. This paper presents an efficient low-complexity intra coding scheme, which employs downsampling and upsampling processes. The downsampling is simply performed by reducing the resolution of an original video in both horizontal and vertical directions. In the upsampling, convolutional neural network based super-resolution is used to increase the resolution of the reconstructed video. In addition, this paper thoroughly analyzes the performance and complexity of all intra coding tools in VVC. Experimental results demonstrate that the significantly high reduction of the encoding complexity can be achieved with acceptable video quality.
+  bibtex: |-
+    @article{IJ16,
+      author={Kiho Choi, The Van Le, Yongho Choi, and Jin Young Lee},
+      title={Low-Complexity Intra Coding in Versatile Video Coding},
+      journal={IEEE Transactions on Consumer Electronics},
+      year={2022},
+      volume={68},
+      pages={119-126},
+      doi={10.1109/tce.2022.3145397}
+    }
+- title: Low-Complexity Two-Step Lossless Depth Coding Using Coarse Lossy Coding
+  authors: Jin Young Lee, The Van Le, Yongho Choi, and Kiho Choi*
+  journal: Multimedia Tools and Application
+  volume: '81'
+  pages: 14065-14079
+  year: 2022
+  category: International Journal
+  id: IJ05
+  theme: immersive
+  url: https://doi.org/10.1007/s11042-022-12145-2
+  description: Texture and depth images are generally used for 3D viewing with advanced displays. Because the characteristics of a depth image are very different from those of a texture image, an efficient compression method is required to transmit a depth image in a limited bandwidth. In this paper, a low-complexity two-step lossless depth coding (LTLDC) method using coarse lossy coding is proposed. The proposed method downsamples an original image and then coarsely compresses the downsampled image in the first step. This compressed image is upsampled, and then its residual is generated by subtracting the upsampled image from the original image.
+  bibtex: |-
+    @article{IJ05,
+      author={Jin Young Lee, The Van Le, Yongho Choi, and Kiho Choi},
+      title={Low-Complexity Two-Step Lossless Depth Coding Using Coarse Lossy Coding},
+      journal={Multimedia Tools and Application},
+      year={2022},
+      volume={81},
+      pages={14065-14079},
+      doi={10.1007/s11042-022-12145-2}
+    }
+- title: Performance Comparison of Emerging EVC and VVC Video Coding Standards with HEVC and AV1
+  authors: Dan Grois, Alex Giladi, Kiho Choi, Min Woo Park, Yinji Piao, Minsoo Park, Kwang Pyo Choi
+  journal: SMPTE Motion Imaging Journal
+  year: 2021
+  category: International Journal
+  id: IJ14
+  url: https://doi.org/10.5594/m001916
+  description: "<i>The recent dramatic increase in video content consumption requires efficient video coding standards, which is specifically true for ultrahigh-definition (UltraHD) resolutions, such as 4K and 8K (i.e., 3840&#x00D7;2160 or 7680&#x00D7;4320 resolutions in terms of luma samples, respectively). The well-known high-efficiency video coding (HEVC) [H.265/Moving Pictures Expert Group (MPEG)-H] standard was approved in 2013. Although HEVC provides approximately 50&#x0025; coding gain compared to its predecessor advanced video coding (AVC) (H.264/MPEG-4), its adoption is still relatively slow. In addition, larger bitrate savings than those provided by HEVC are currently in demand. At the same time, work on the versatile video coding (VVC) and essential video coding (EVC) standards started in 2018. After intensive development efforts that continued for two and a half years, these two video coding standards have been recently finalized. VVC (H.266/MPEG-I) was developed jointly by the MPEG and the International Telecommunication Union-Telecommunication (ITU-T) Video Coding Experts Group (VCEG). On the other hand, EVC (MPEG-5) is an MPEG-only effort. In this paper, we compare the performance of EVC and VVC, in terms of both coding gains and computational complexity, to their predecessor&#x2014;the HEVC video coding standard. In addition, given the growing popularity of the AV1 video codec, which was recently developed by the Alliance for Open Media (AOM), we also include AV1 as an alternative baseline and provide corresponding comparison results. According to the experimental results, which have been carried out in a constant bitrate (CBR) mode, EVC provides about 30&#x0025; bitrate savings compared to HEVC for encoding 4K/2160p entertainment content (such as VoD) in terms of Bj&#x00F8;ntegaard-delta bitrate (BD-BR) peak-signal-to-noise ratio (PSNR)<sub>YUV</sub>, while introducing an encoding computational complexity increase of approximately five times. VVC provides larger bitrate savings of about 40&#x0025; at a price of a significant encoding computational complexity increase of more than nine times. When the performance of HEVC CBR encoding (i.e., with the rate control disabled) was compared to that of AV1 VBR encoding (i.e., with the rate control enabled), it was found that AV1 provides bitrate savings of about 20&#x0025; compared to HEVC for encoding 4K/2160p video sequences, as a tradeoff of an encoding computational complexity increase by a factor of approximately four. The authors find both EVC and VVC to be very promising successors to HEVC in terms of coding gains and computational complexity, but the jury is still out on the speed of their adoption</i>."
+  bibtex: |-
+    @article{IJ14,
+      author={Dan Grois, Alex Giladi, Kiho Choi, Min Woo Park, Yinji Piao, Minsoo Park, Kwang Pyo Choi},
+      title={Performance Comparison of Emerging EVC and VVC Video Coding Standards with HEVC and AV1},
+      journal={SMPTE Motion Imaging Journal},
+      year={2021},
+      doi={10.5594/m001916}
+    }
+- title: An Overview of the MPEG-5 Essential Video Coding Standard
+  authors: Kiho Choi, J. Chen, D. Rusanovskyy, K. P. Choi, and Euee S. Jang
+  journal: IEEE Signal Processing Magazine
+  volume: '37'
+  pages: 160-167
+  year: 2020
+  category: International Journal
+  id: IJ13
+  url: https://doi.org/10.1109/MSP.2020.2971765
+  description: Since the 1970s, various image and video coding techniques have been explored, and some of them have been included in the video coding standards issued by the International Organization for Standardization (ISO)/International Electrotechnical Commission (IEC) Motion Pictures Expert Group (MPEG) and International Telecommunication Union-Telecommunication Standardization Sector (ITU-T) Video Coding Experts Group (VCEG). MPEG is the most successful standards development organization (SDO) for multimedia compression standardization. In particular, most of the widely deployed video coding standards of the past 30 years have been developed within this working group.
+  bibtex: |-
+    @article{IJ13,
+      author={Kiho Choi and Jianle Chen and Dmytro Rusanovskyy and Kwang Pyo Choi and Euee S. Jang},
+      title={An Overview of the MPEG-5 Essential Video Coding Standard},
+      journal={IEEE Signal Processing Magazine},
+      year={2020},
+      volume={37},
+      pages={160-167},
+      doi={10.1109/MSP.2020.2971765}
+    }
+- title: Video Codec Using Flexible Block Partitioning and Advanced Prediction, Transform and Loop Filtering Technologies
+  authors: Kiho Choi, J. Chen, M. W. Park, H. Yang, W. Choi, S. Ikonin, Y. Piao, S. Esenlik, M. Park, Y.-K. Wang, N. Choi, Y. Zhao, S. Jeong, H. Chen, A. Tamse, A. Filippov, H. Yang, X. Ma, J. Min, R. Chernyak, B. Jin, A. M. Kotra, S. Lee, H. Gao, C. Kim, T. Solovyev, K. P. Choi, V. Rufitskiy, M. Sychev, W. Xu, T. Wang, J. Park
+  journal: IEEE Transactions on Circuits and Systems for Video Technology
+  volume: '30'
+  pages: 1326-1345
+  year: 2020
+  category: International Journal
+  id: IJ12
+  url: https://doi.org/10.1109/tcsvt.2020.2971268
+  description: This paper describes a joint response to the Call for Proposals by Samsung, Huawei, GoPro, and HiSilicon on Video Compression with Capability beyond HEVC/H.265, jointly issued by ITU-T SG16 Q.6 (VCEG) and ISO/IEC JTC1/SC29/WG11 (MPEG). In the proposed codec, the coding framework supports hierarchical splitting with binary and ternary trees and flexible coding order representations. Additionally, novel compression tools on inter/intra prediction, in-loop filtering, and entropy coding have been proposed. The proposed compression scheme provides significantly higher compression capability than the state-of-the-art HEVC/H.265 standard for SDR (Standard Dynamic Range) category while maintaining complexity acceptable for emerging applications. When all the proposed algorithmic tools are used, the proposed video codec achieves approximately 40% bit-saving for the SDR cetegory on average compared to HEVC/H.265 anchor.
+  bibtex: |-
+    @article{IJ12,
+      author={Kiho Choi, J. Chen, M. W. Park, H. Yang, W. Choi, S. Ikonin, Y. Piao, S. Esenlik, M. Park, Y.-K. Wang, N. Choi, Y. Zhao, S. Jeong, H. Chen, A. Tamse, A. Filippov, H. Yang, X. Ma, J. Min, R. Chernyak, B. Jin, A. M. Kotra, S. Lee, H. Gao, C. Kim, T. Solovyev, K. P. Choi, V. Rufitskiy, M. Sychev, W. Xu, T. Wang, J. Park},
+      title={Video Codec Using Flexible Block Partitioning and Advanced Prediction, Transform and Loop Filtering Technologies},
+      journal={IEEE Transactions on Circuits and Systems for Video Technology},
+      year={2020},
+      volume={30},
+      pages={1326-1345},
+      doi={10.1109/tcsvt.2020.2971268}
+    }
+- title: The Joint Exploration Model (JEM) for Video Compression with Capability beyond HEVC
+  authors: Jianle Chen, Marta Karczewicz, Yu-Wen Huang, Kiho Choi, Jens-Rainer Ohm, Gary J. Sullivan
+  journal: IEEE Transactions on Circuits and Systems for Video Technology
+  volume: '30'
+  pages: 1208-1225
+  year: 2020
+  category: International Journal
+  id: IJ11
+  url: https://doi.org/10.1109/tcsvt.2019.2945830
+  description: This paper provides an overview of the coding algorithms of the Joint Exploration Model (JEM) for video compression with capability beyond HEVC, which was developed by the Joint Video Exploration Team (JVET) of the ITU-T Video Coding Experts Group (VCEG) and the ISO/IEC Moving Picture Experts Group (MPEG). The goal of the JEM development and experimentation was to provide evidence that sufficient coding efficiency improvement over the High Efficiency Video Coding (HEVC) standard can be achieved, which would justify the need for a new video coding standard with a compression capability significantly exceeding that of HEVC. The development of the JEM provided an ability to conduct studies toward that goal in a verifiable and collaborative manner and led to the launching of the project to develop the new Versatile Video Coding (VVC) standard. Objective metric gains exceeding 30% were measured for most of the tested high-resolution video content that represents current demanding new applications, and subjective testing using human observers showed even more benefit.
+  bibtex: |-
+    @article{IJ11,
+      author={Jianle Chen, Marta Karczewicz, Yu-Wen Huang, Kiho Choi, Jens-Rainer Ohm, Gary J. Sullivan},
+      title={The Joint Exploration Model (JEM) for Video Compression with Capability beyond HEVC},
+      journal={IEEE Transactions on Circuits and Systems for Video Technology},
+      year={2020},
+      volume={30},
+      pages={1208-1225},
+      doi={10.1109/tcsvt.2019.2945830}
+    }
+- title: 'MPEG-5 Part 1: Essential Video Coding'
+  authors: Samuelsson, Jonatan, Kiho Choi, Jianle Chen, and Dmytro Rusanovskyy
+  journal: SMPTE Motion Imaging Journal
+  volume: '129'
+  pages: 10-16
+  year: 2020
+  category: International Journal
+  id: IJ10
+  url: https://doi.org/10.5594/jmi.2020.3001795
+  description: '<italic xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">The Motion Picture Experts Group (MPEG) standardization group has produced a large number of standards for video compression over the last three decades. Traditionally, the MPEG standards have either focused on highest available compression efficiency [e.g., MPEG-2, advanced video coding (AVC), and high-efficiency video coding (HEVC)] or a desire to produce a royalty-free standard [e.g., Internet video coding (IVC) and web video coding (WebVC)]. In January 2019, MPEG embarked on a new standardization project that can be seen as a hybrid of the two: MPEG-5 part 1 and essential video coding (EVC) [International Organization for Standardization/International Electrotechnical Commission (ISO/IEC) 23094-1]. The EVC standard was developed with a royalty-free baseline profile at its base and a royalty bearing main profile that provides excellent compression performance. The main profile adds, on top of the baseline profile, 21 different coding tools that each can be individually turned off and, when necessary, replaced by a corresponding baseline profile tool. This structure makes it easy to fall back to a smaller set of tools in the future, if, for example, licensing complications occur around a specific tool, without breaking compatibility with already deployed decoders</i> .'
+  bibtex: |-
+    @article{IJ10,
+      author={Samuelsson, Jonatan, Kiho Choi, Jianle Chen, and Dmytro Rusanovskyy},
+      title={MPEG-5 Part 1: Essential Video Coding},
+      journal={SMPTE Motion Imaging Journal},
+      year={2020},
+      volume={129},
+      pages={10-16},
+      doi={10.5594/jmi.2020.3001795}
+    }
+- title: Zero coefficient-aware fast butterfly-based inverse discrete cosine transform algorithm
+  authors: Sang-hyo Park, Kiho Choi, and Euee S. Jang
+  journal: IET Image Processing
+  volume: '10'
+  pages: 89-100
+  year: 2016
+  category: International Journal
+  id: IJ09
+  url: https://doi.org/10.1049/iet-ipr.2015.0036
+  description: The latest video coding standards, including Moving Picture Experts Group‐4 (MPEG‐4) advanced video coding (AVC)/H.264 and high‐efficiency video coding (HEVC), use a discrete cosine transform (DCT) process as the core for compression efficiency, sacrificing the computational complexity at decoder. There have been a number of attempts to reduce the complexity of inverse DCT (IDCT). Butterfly‐based factorisation remains the most commonly used method for such a reduction. In this study, the authors propose a zero (Z) coefficient‐aware fast butterfly‐based IDCT algorithm for video decoding. They focus on a reduction in the computational complexity of the butterfly‐based 8 × 8 IDCT by removing the unnecessary computations of one‐dimensional (1D) IDCT kernels, and adaptively applying IDCT kernels based on the number of non‐Z DCT coefficients to speed‐up 1D data. Their experimental results show that the average operation numbers using the proposed IDCT is approximately half that for the 8 × 8 IDCT implemented in the MPEG‐4 AVC/H.264 and HEVC reference software. The improved computational complexity of the proposed method is demonstrated by measuring the running time, which requires only one‐half of the IDCT time using the reference software.
+  bibtex: |-
+    @article{IJ09,
+      author={Sang-hyo Park, Kiho Choi, and Euee S. Jang},
+      title={Zero coefficient-aware fast butterfly-based inverse discrete cosine transform algorithm},
+      journal={IET Image Processing},
+      year={2016},
+      volume={10},
+      pages={89-100},
+      doi={10.1049/iet-ipr.2015.0036}
+    }
+- title: Data reuse-based fast subpixel motion estimation for high efficiency video coding
+  authors: Kiho Choi and Euee S. Jang
+  journal: Optical Engineering
+  volume: '53'
+  pages: '063103'
+  year: 2014
+  category: International Journal
+  id: IJ08
+  url: https://doi.org/10.1117/1.oe.53.6.063103
+  description: A data reuse-based fast subpixel motion estimation (SME) method for high efficiency video coding (HEVC) is proposed. Since SME is one of the most computation-intensive tools in the encoder process, conventional research on SME focused on the reduction of the computational complexity. The applied data-reuse architecture for the design of fast SME substantially reduces computational complexity at the cost of a reasonable increase in memory bandwidth. The core of the proposed data-reuse method is the replacement of redundant computations in SME with the memory access operations of previously computed values. The proposed method was tested in the latest video coding standard, HEVC, with experimental results showing a reduction in operational complexity of ∼64.14%, and a reduction in encoding time of ∼56.13%, compared to the SME in the HEVC reference encoder.
+  bibtex: |-
+    @article{IJ08,
+      author={Kiho Choi and Euee S. Jang},
+      title={Data reuse-based fast subpixel motion estimation for high efficiency video coding},
+      journal={Optical Engineering},
+      year={2014},
+      volume={53},
+      pages={063103},
+      doi={10.1117/1.oe.53.6.063103}
+    }
+- title: Royalty-Free Video Coding Standards in MPEG
+  authors: Kiho Choi and Euee S. Jang
+  journal: IEEE Signal Processing Magazine
+  volume: '31'
+  pages: 145-155
+  year: 2013
+  category: International Journal
+  id: IJ07
+  url: https://doi.org/10.1109/MSP.2013.2282413
+  description: In this article, we report on the recent developments in royalty-free codec standardization in MPEG, particularly Internet video coding (IVC), Web video coding (WVC), and video coding for browser, by reviewing the history of royalty-free standards in MPEG and the relationship between standards and patents.
+  bibtex: |-
+    @article{IJ07,
+      author={Kiho Choi and Euee S. Jang},
+      title={Royalty-Free Video Coding Standards in MPEG},
+      journal={IEEE Signal Processing Magazine},
+      year={2014},
+      volume={31},
+      pages={145-155},
+      doi={10.1109/MSP.2013.2282413}
+    }
+- title: Leveraging Parallel Computing in Modern Video Coding Standards
+  authors: Kiho Choi and Euee S. Jang
+  journal: IEEE MultiMedia
+  volume: '19'
+  pages: 7-11
+  year: 2012
+  category: International Journal
+  id: IJ06
+  url: https://doi.org/10.1109/mmul.2012.36
+  description: Video coding has always been a computationally intensive process. Although dramatic improvements in coding efficiency have been realized in recent years, the algorithms have become increasingly complex and there is a broader recognition that it is necessary to realize the capabilities of multicore processors. This article discusses how recent trends in parallel computing have influenced the design of modern video coding standards. Specifically, the authors discuss how the High Efficiency Video Coding (HEVC) standard, which is being jointly developed by ISO/IEC JTC1/SC29 WG11 (MPEG) and ITU-T SH16/Q.6 (VCEG), is looking at ways to implement the co-exploration between algorithm and architecture (CEAA) approach.
+  bibtex: |-
+    @article{IJ06,
+      author={Kiho Choi and Euee S. Jang},
+      title={Leveraging Parallel Computing in Modern Video Coding Standards},
+      journal={IEEE MultiMedia},
+      year={2012},
+      volume={19},
+      pages={7-11},
+      doi={10.1109/mmul.2012.36}
+    }
+- title: Early TU Decision Method for Fast Video Encoding in High Efficiency Video Coding
+  authors: Kiho Choi and Euee S. Jang
+  journal: Electronics Letters
+  volume: '48'
+  pages: 689-691
+  year: 2012
+  category: International Journal
+  id: IJ05b
+  url: https://doi.org/10.1049/el.2012.0277
+  description: Proposed is an early transform unit (TU) decision method for high efficiency video coding (HEVC) by early determination of the TU sizes based on coding tree pruning. Although the coding efficiency in HEVC can be improved by using various transform block sizes, the computational complexity increased dramatically in terms of the transform kernel size and the transform coding structure. A simple TU decision algorithm is proposed that can prune a residual quadtree in the early stages based on the number of nonzero DCT coefficients. Experimental results show that the proposed method achieves a 61% reduction in TU processing time compared to the HEVC test model 3.0 encoder with a little gain in coding performance.
+  bibtex: |-
+    @article{IJ05b,
+      author={Kiho Choi and Euee S. Jang},
+      title={Early TU Decision Method for Fast Video Encoding in High Efficiency Video Coding},
+      journal={Electronics Letters},
+      year={2012},
+      volume={48},
+      pages={689-691},
+      doi={10.1049/el.2012.0277}
+    }
+- title: Fast CU Decision Method Based on Coding Tree Pruning for High Efficiency Video Coding
+  authors: Kiho Choi and Euee S. Jang
+  journal: Optical Engineering
+  volume: '51'
+  pages: '030502'
+  year: 2012
+  category: International Journal
+  id: IJ04
+  url: https://doi.org/10.1117/1.oe.51.3.030502
+  description: A fast coding unit (CU) decision method is proposed for high efficiency video coding (HEVC) by determining early the CU sizes based on coding tree pruning. One of the most effective, a newly introduced concept in HEVC, is variable CU size. In determining the best CU size, the reference encoder of the HEVC tests every possible CU size in order to estimate the coding performance of each CU defined by the CU size. This causes major computational complexity within the encoding process, which should be overcome for the implementation of a fast encoder. A simple tree-pruning algorithm is proposed that exploits the observation where the subtree computations can be skipped if the coding mode of the current node is sufficient (e.g., SKIP mode). The experimental results show that the proposed method was able to achieve a 40% reduction in encoding time compared to the HEVC test model 3.0 encoder with only a negligible loss in coding performance. The proposed method was adopted in HEVC test model 4.0 encoder at JCT-VC 6th meeting.
+  bibtex: |-
+    @article{IJ04,
+      author={Kiho Choi and Euee S. Jang},
+      title={Fast CU Decision Method Based on Coding Tree Pruning for High Efficiency Video Coding},
+      journal={Optical Engineering},
+      year={2012},
+      volume={51},
+      pages={030502},
+      doi={10.1117/1.oe.51.3.030502}
+    }
+- title: Adaptive search range adjustment scheme for fast motion estimation in AVC/H.264
+  authors: Sunyoung Lee, Kiho Choi and Euee S. Jang
+  journal: Optical Engineering
+  volume: '50'
+  pages: '067402'
+  year: 2011
+  category: International Journal
+  id: IJ03
+  url: https://doi.org/10.1117/1.3589292
+  description: AVC/H.264 supports the use of multiple reference frames (e.g., 5 frames in AVC/H.264) for motion estimation (ME), which demands a huge computational complexity in ME. We propose an adaptive search range adjustment scheme to reduce the computational complexity of ME by reducing the search range of each reference frame-from the (t-1)'th frame to the (t-5)'th frame-for each macroblock. Based on the statistical analysis that the 16×16 mode type is dominantly selected rather than the other block partition mode types, the proposed method reduces the search range of the remaining ME process in the given reference frame according to the motion vector (MV) position of the 16×16 block ME. In the case of the (t-1)'th frame, the MV position of the 8×8 block ME-in addition to that of 16×16 block ME-is also used for the search range reduction to sub-block partition mode types of the 8×8 block. The experimental results show that the proposed method reduces about 50% and 65% of the total encoding time over CIF/SIF and full HD test sequences, respectively, without any noticeable visual degradation, compared to the full search method of the AVC/H.264 encoder.
+  bibtex: |-
+    @article{IJ03,
+      author={Sunyoung Lee, Kiho Choi and Euee S. Jang},
+      title={Adaptive search range adjustment scheme for fast motion estimation in AVC/H.264},
+      journal={Optical Engineering},
+      year={2011},
+      volume={50},
+      pages={067402},
+      doi={10.1117/1.3589292}
+    }
+- title: Scaled zero coefficient-aware IDCT algorithm for fast video decoding
+  authors: Kiho Choi and Euee S. Jang
+  journal: Electronics Letters
+  volume: '46'
+  pages: 1668-1669
+  year: 2010
+  category: International Journal
+  id: IJ02
+  url: https://doi.org/10.1049/el.2010.2437
+  description: Proposed is a scaled zero coefficient-aware fast inverse discrete cosine transform (IDCT) algorithm that substantially outperforms the existing fixed-point 8×8 IDCT standard. The concept of the fixed-point approximation with accurate dyadic terms is applied to the zero coefficient-aware IDCT algorithm, improving the computational complexity of the authors&apos; previous work. The experimental results show that the running time of the proposed scaled zero coefficient-ware algorithm is faster than that of the fixed-point 8×8 IDCT standard by a speed-up factor of 2.0 times on average and up to 2.6 times for the HD sequences.
+  bibtex: |-
+    @article{IJ02,
+      author={Kiho Choi and Euee S. Jang},
+      title={Scaled zero coefficient-aware IDCT algorithm for fast video decoding},
+      journal={Electronics Letters},
+      year={2010},
+      volume={46},
+      pages={1668-1669},
+      doi={10.1049/el.2010.2437}
+    }
+- title: Zero coefficient-aware IDCT Algorithm for Fast Video Decoding
+  authors: Kiho Choi, Sunyoung Lee, and Euee S. Jang
+  journal: IEEE Trans. Consumer Electronics
+  volume: '56'
+  pages: 1822-1829
+  year: 2010
+  category: International Journal
+  id: IJ01
+  url: https://doi.org/10.1109/tce.2010.5606332
+  description: Ever since many well-known image and video coding standards such as JPEG, MPEG, and H.26x started using DCT as a core process in data compression, the design of the fast inverse discrete cosine transform (IDCT) has been an intensive research topic. Most research has focused on a reduction of the number of operations using the butterfly structure. However, the majority of DCT coefficients is zero after quantization and is therefore redundant for IDCT computation. Therefore, we exploited this DCT coefficients redundancy to propose a zero coefficient-aware IDCT algorithm for fast decoding. The proposed method significantly reduces the number of IDCT operations by adaptively including non-zero coefficients in the calculation and employing a table look-up to eliminate multiplication operations in the IDCT process. The proposed zero coefficient-ware algorithm outperformed other existing fast IDCT algorithms in terms of operational complexity. Moreover, the running time was faster than butterfly based IDCT algorithms implemented in MPEG-4 simple profile decoder by a speedup factor of 1.32 times for the SIF/CIF sequences and up to 2.18 times for the HD sequences.
+  bibtex: |-
+    @article{IJ01,
+      author={Kiho Choi, Sunyoung Lee, and Euee S. Jang},
+      title={Zero coefficient-aware IDCT Algorithm for Fast Video Decoding},
+      journal={IEEE Trans. Consumer Electronics},
+      year={2010},
+      volume={56},
+      pages={1822-1829},
+      doi={10.1109/tce.2010.5606332}
+    }
+- title: Super-Resolution based Video Coding Scheme
+  authors: Hyunmin Cho and Kiho Choi*
+  journal: 2022 Challenge on Learned Image Compression (CLIC) Workshop for CVPR 2022
+  pages: 1778-1780
+  year: 2022
+  category: International Conference
+  id: IC18
+  theme: immersive
+  url: https://doi.org/10.1109/cvprw56347.2022.00190
+  description: In this paper, we present a super-resolution-based video coding scheme that compresses video data by combining traditional hybrid video coding and Convolutional neural network-based video coding. During video encoding, downsampling reduces the resolution of an original video in both horizontal and vertical directions to reduce original video data, and Convolutional neural networkbased super-resolution is employed after the decoding process to recover the resolution of the reconstructed video during upsampling. For core encoding and decoding processes, the latest video coding standard (i.e., VVC/H.266) is conducted. The experimental results show that the proposed method can provide efficient coding performance while maintaining good visual quality.
+  bibtex: |-
+    @inproceedings{IC18,
+      author={Hyunmin Cho and Kiho Choi},
+      title={Super-Resolution based Video Coding Scheme},
+      journal={2022 Challenge on Learned Image Compression (CLIC) Workshop for CVPR 2022},
+      year={2022},
+      pages={1778-1780},
+      doi={10.1109/cvprw56347.2022.00190}
+    }
+- title: A study on impact of VVC coding tools for Video Coding for Machine
+  authors: Minjung Cho, Yongho Bae, and Kiho Choi*
+  journal: 2022 International Workshop on Advanced Image Technology (IWAIT)
+  year: 2022
+  category: International Conference
+  id: IC17
+  description: 
+  bibtex: |-
+    @inproceedings{IC17,
+      author={Minjung Cho, Yongho Bae, and Kiho Choi},
+      title={A study on impact of VVC coding tools for Video Coding for Machine},
+      booktitle={2022 International Workshop on Advanced Image Technology (IWAIT)},
+      year={2022}
+    }
+- title: Overview of Baseline Profile in MPEG-5 Essential Video Coding Standard
+  authors: Kwang Pyo Choi, Kiho Choi*, Min Woo Park, Minsoo Park, Yinji Piao, Minseok Choi, Heechul Yang, Youngo Park
+  journal: 2021 SPIE conference
+  year: 2021
+  category: International Conference
+  id: IC16
+  url: https://doi.org/10.1117/12.2597682
+  description: The MPEG-5 Essential Video Coding (EVC) Standard was finalized in July 2020 in ISO/IEC Moving Picture Experts Group (MPEG). The main goal of the EVC standard development was to provide a significantly improved compression efficiency over existing video coding standards with timely publication of licensing terms. To achieve the goal of project, the EVC standard was developed with the royalty-free based Baseline profile (BP) as its base and a royalty bearing Main profile having a small number of coding tools on top of the Baseline profile. This paper presents EVC BP which can be a strong candidate for the media application that is a dominant in the internet platform. To evaluate the coding performance of the EVC BP, the testing result compared to H.264/AVC is provided. In the testing result, the EVC BP has shown 31.2% and 30.4% bitrate reductions with using only 40% and 23% encoding times of H.264/AVC under RA and LD test scenarios, respectively.
+  bibtex: |-
+    @inproceedings{IC16,
+      author={Kwang Pyo Choi, Kiho Choi, Min Woo Park, Minsoo Park, Yinji Piao, Minseok Choi, Heechul Yang, Youngo Park},
+      title={Overview of Baseline Profile in MPEG-5 Essential Video Coding Standard},
+      journal={2021 SPIE conference},
+      year={2021},
+      doi={10.1117/12.2597682}
+    }
+- title: Split Unit Coding Order for Video Coding
+  authors: Yinji Piao, Kiho Choi, M. W. Park, Minsoo Park, Kwang Pyo Choi
+  journal: IEEE International Conference on Multimedia (ICME)
+  year: 2021
+  category: International Conference
+  id: IC15
+  url: https://doi.org/10.1109/icme51207.2021.9428179
+  description: 'This paper presents a flexible block processing order, called split unit coding order (SUCO), for video coding. In the conventional block-based image and video compression, the largest blocks are processed in a raster scan order while further partitioned blocks are processed in a z-scan order. Due to the fixed coding order, the information that can be exploited for prediction at coding block is limited to the left and above neighbors. Beyond the traditional prediction from left and above, the proposed SUCO allows more flexible processing order for the partitioned blocks so that the coding blocks could also utilize right neighboring information, such as reconstructed pixels and motion information, more adaptively. The impact of proposed coding order has been verified in the several video coding platforms: 2.1% and 2.1% BD-rate reduction on average in AI and RA configuration over HM12.1; 1.6% BD-rate reduction on average in RA over JEM3.1; 1.0% BD-rate reduction on average in RA over ETM4.1.'
+  bibtex: |-
+    @inproceedings{IC15,
+      author={Yinji Piao, Kiho Choi, M. W. Park, Minsoo Park, Kwang Pyo Choi},
+      title={Split Unit Coding Order for Video Coding},
+      journal={IEEE International Conference on Multimedia (ICME)},
+      year={2021},
+      doi={10.1109/icme51207.2021.9428179}
+    }
+- title: Merge Mode With Motion Vector Difference
+  authors: Seungsoo Jeong, Yinji Piao, Min Woo Park, Minsoo Park, Anish Tamse, Narae Choi, Kiho Choi, Woongil Choi, Chanyul Kim
+  journal: IEEE International Conference on Image Processing (ICIP)
+  year: 2020
+  category: International Conference
+  id: IC14
+  url: https://doi.org/10.1109/icip40778.2020.9190637
+  description: This paper proposes a new motion vector expression method named merge mode with motion vector difference (MMVD) for future video coding standards. In the previous standards, two approaches are typically used for motion vector representation. In the first one, the motion vector is derived from neighboring blocks and is directly used for motion compensation (merge mode in HEVC), and in the other one, the motion vector is represented with motion vector predictor and a difference (adaptive motion vector prediction; AMVP in HEVC). The merge mode benefits by saving bits for representing motion information. The AMVP represents more accurate motion information but it needs to signal the motion difference information, which consumes additional bits. MMVD provides a compromised solution for the tradeoff between motion vector accuracy and its overhead. MMVD can improve motion vector accuracy by introducing a simplified motion vector representation. The results show that the proposed method improves coding efficiency ofV VC with an average of 0.51% in BD-rate saving.
+  bibtex: |-
+    @inproceedings{IC14,
+      author={Seungsoo Jeong, Yinji Piao, Min Woo Park, Minsoo Park, Anish Tamse, Narae Choi, Kiho Choi, Woongil Choi, Chanyul Kim},
+      title={Merge Mode With Motion Vector Difference},
+      journal={IEEE International Conference on Image Processing (ICIP)},
+      year={2020},
+      doi={10.1109/icip40778.2020.9190637}
+    }
+- title: Scan region-based coefficient coding in avs3
+  authors: Zhuoyi Lv, Yinji Piao, Yue Wu, Kiho Choi, Kwang Pyo Choi
+  journal: IEEE International Conference on Multimedia (ICME)
+  year: 2020
+  category: International Conference
+  id: IC13
+  url: https://doi.org/10.1109/icmew46912.2020.9105993
+  description: This paper describes transform coefficient coding using the scan region-based method adopted in the Draft Standard of the AVS3-phase2 specification. Transform coefficient coding in the scan region-based method encompasses the definition of the scan region, the coding scheme in the given scan region and the context model selection for the coefficients’ multi-layer level coding. Experimental results show that the proposed method improves coding efficiency on average by 2.84%, 1.73%, 1.42% BD-rate over AVS3-Baseline coefficient coding scheme in AI, RA and LD configurations, respectively.
+  bibtex: |-
+    @inproceedings{IC13,
+      author={Zhuoyi Lv, Yinji Piao, Yue Wu, Kiho Choi, Kwang Pyo Choi},
+      title={Scan region-based coefficient coding in avs3},
+      journal={IEEE International Conference on Multimedia (ICME)},
+      year={2020},
+      doi={10.1109/icmew46912.2020.9105993}
+    }
+- title: Adaptive Motion Vector Resolution in AVS3 Standard
+  authors: Chuan Zhou, Zhuoyi Lv, Yinji Piao, Yue Wu, Kiho Choi, Kwang Pyo Choi
+  journal: IEEE International Conference on Multimedia (ICME)
+  year: 2020
+  category: International Conference
+  id: IC12
+  url: https://doi.org/10.1109/icmew46912.2020.9106046
+  description: This paper introduces an inter prediction technique, adaptive motion vector resolution and its extension, both of which have been adopted in the Baseline Profile of the AVS3 standard. In the previous video coding standard AVS2, the motion vector resolution is fixed to be quarter-pixel for motion vector difference coding. The adaptive motion vector resolution method allows the motion vector difference of a coding unit to be coded in various resolutions to reduce the bits coded for motion vector difference. To further improve the coding efficiency, an extended motion vector resolution scheme is developed by binding motion vector resolutions and history-based motion vector prediction candidates together according to a carefully designed rule. It is reported that the adaptive motion vector resolution method together with the extended motion vector resolution scheme achieves 4.1% BD-rate reduction on average in random access configuration on the latest AVS3 reference software.
+  bibtex: |-
+    @inproceedings{IC12,
+      author={Chuan Zhou, Zhuoyi Lv, Yinji Piao, Yue Wu, Kiho Choi, Kwang Pyo Choi},
+      title={Adaptive Motion Vector Resolution in AVS3 Standard},
+      journal={IEEE International Conference on Multimedia (ICME)},
+      year={2020},
+      doi={10.1109/icmew46912.2020.9106046}
+    }
+- title: 'MPEG-5: essential video coding standard'
+  authors: Kiho Choi, M. W. Park, K. P. Choi, J. Park, J. Chen, Y.-K. Wang, R. Chernyak, S. Ikonin, D. Rusanovskyy, W.-J. Chien, V. Seregin, M. Karczewicz
+  journal: Applications of Digital Image Processing XLII
+  volume: '11137'
+  pages: '1113710'
+  year: 2019
+  category: International Conference
+  id: IC11
+  url: https://doi.org/10.1117/12.2530429
+  description: MPEG-5 Essential Video Coding Standard is currently being prepared as the video coding standard of ISO/IEC Moving Picture Experts Group. The main goal of the EVC standard development is to provide a significantly improved compression capability over existing video coding standards with timely publication of availability terms. This paper provides an overview of the feature and the characteristics of the MPEG-5 EVC standard.
+  bibtex: |-
+    @inproceedings{IC11,
+      author={Kiho Choi, M. W. Park, K. P. Choi, J. Park, J. Chen, Y.-K. Wang, R. Chernyak, S. Ikonin, D. Rusanovskyy, W.-J. Chien, V. Seregin, M. Karczewicz},
+      title={MPEG-5: essential video coding standard},
+      journal={Applications of Digital Image Processing XLII},
+      year={2019},
+      volume={11137},
+      pages={1113710},
+      doi={10.1117/12.2530429}
+    }
+- title: MPEG-5 EVC
+  authors: J Samuelsson, Kiho Choi, J Chen, D Rusanovskyy
+  journal: SMPTE 2019
+  pages: 1-11
+  year: 2019
+  category: International Conference
+  id: IC10
+  url: https://doi.org/10.5594/m001877
+  description: The MPEG standardization group has produced a large number of standards for video compression over the last three decades. Traditionally, the MPEG standards have either focused on highest available compression efficiency (e.g. MPEG-2, AVC and HEVC) or a desire to produce a royalty-free standard (e.g. IVC and WebVC). In January 2019, MPEG embarked on a new standardization project that can be said to be a hybrid of the two; MPEG-5 Essential Video Coding (EVC). The MPEG-5 EVC standard is being developed with a royalty-free Baseline profile at its base and a royalty bearing Main profile that provides excellent compression performance. The Main profile adds on top of the Baseline profile, 20 different coding tools that each can be individually turned off and, when needed, replaced by a corresponding Baseline profile tool. This structure makes it easy to fall back to a smaller set off tools in the future, if for example licensing complications occur around a specific tool, without breaking compatibility with already deployed decoders.
+  bibtex: |-
+    @inproceedings{IC10,
+      author={J Samuelsson, Kiho Choi, J Chen, D Rusanovskyy},
+      title={MPEG-5 EVC},
+      journal={SMPTE 2019},
+      year={2019},
+      pages={1-11},
+      doi={10.5594/m001877}
+    }
+- title: New Video Codec for High-Quality Video Service and Emerging Applications
+  authors: Kiho Choi, Jianle Chen, Anish Tamse, Haitao Yang, Min Woo Park, Sergey Ikonin, Woongil Choi, Semih Esenlik
+  journal: Data Compression Conference (DCC), IEEE
+  year: 2019
+  category: International Conference
+  id: IC09
+  url: https://doi.org/10.1109/dcc.2019.00039
+  description: This paper proposes a novel video compression scheme for high-quality video service and emerging applications such as 360-degree omnidirectional and high dynamic range video coding. The coding framework supports hierarchical splitting of blocks with binary and ternary-split trees and flexible coding order representations. Moreover, minimal tool set to obtain high precision prediction and compression enhancement has been proposed. Compared to HEVC, bit-rate reduction of around 40% based on objective measures has been shown. This was one of the responses to the Call for Proposals (CfP) for VVC standardization.
+  bibtex: |-
+    @inproceedings{IC09,
+      author={Kiho Choi, Jianle Chen, Anish Tamse, Haitao Yang, Min Woo Park, Sergey Ikonin, Woongil Choi, Semih Esenlik},
+      title={New Video Codec for High-Quality Video Service and Emerging Applications},
+      journal={Data Compression Conference (DCC), IEEE},
+      year={2019},
+      doi={10.1109/dcc.2019.00039}
+    }
+- title: Coding efficiency improvements beyond HEVC with known tools
+  authors: Alexander Alshin, Elena Alshina, Madhukar Budagavi, Kiho Choi, Junghye Min, Michael Mishourovsky, Yinji Piao, Ankur Saxena
+  journal: Applications of Digital Image Processing XXXVIII
+  volume: '9599'
+  pages: 95991C
+  year: 2015
+  category: International Conference
+  id: IC08
+  url: https://doi.org/10.1117/12.2193683
+  description: In this paper, several coding tools are evaluated on top of the HEVC version 1. Among them there are straightforward extension of HEVC coding tools (such as Coding Unit size enlarging, fine granularity of Intra prediction angles) and algorithms that have been studied during HEVC development (such as secondary transform, multi-hypothesis CABAC, multi-parameter Intra prediction, bidirectional optical flow). Most of them improve performance of Intra coding. Minor adjustment to the final version of HEVC standard was done for efficient harmonization of the proposed coding tools with HEVC. Performance improvement observed from investigated tools is up to 7,1%, 9,9%, 4,5% and 5,7% in all-intra, random access, low-delay B and low-delay P test scenario (using HEVC common test conditions).
+  bibtex: |-
+    @inproceedings{IC08,
+      author={Alexander Alshin, Elena Alshina, Madhukar Budagavi, Kiho Choi, Junghye Min, Michael Mishourovsky, Yinji Piao, Ankur Saxena},
+      title={Coding efficiency improvements beyond HEVC with known tools},
+      journal={Applications of Digital Image Processing XXXVIII},
+      year={2015},
+      volume={9599},
+      pages={95991C},
+      doi={10.1117/12.2193683}
+    }
+- title: Frame-based Adaptive selection of ALF for Fast HEVC Decoding
+  authors: Sang-hyo Park, Kiho Choi, Gyeong-gi Noh, and Euee S. Jang
+  journal: IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)
+  year: 2012
+  category: International Conference
+  id: IC07
+  url: https://doi.org/10.1109/bmsb.2012.6264321
+  description: Adaptive loop filter (ALF) is a newly introduced technique in high efficiency video coding (HEVC) that minimizes the distortion between the original frame and the coded frame. While ALF improves a coding efficiency as well as a visual quality in the video coding standard, the use of ALF increases the computational complexity at the decoder side substantially (e.g., 25 percent). This should be overcome for the implementation of fast decoder. In this paper, we propose an adaptive selection method that determines the use of ALF in a frame-level to reduce the decoding time. The proposed method exploits the fact that ALF is more effective in the frames with high RD cost values than in those with low RD cost values by determining the ALF-skip frame with the RD cost values of the current and previous frames. Through experimental results, the decoding time using the proposed method is reduced to about 93 percent of that of the HEVC test model (i.e. HM 3.0) with a 0.4 percent BD-rate increase.
+  bibtex: |-
+    @inproceedings{IC07,
+      author={Sang-hyo Park, Kiho Choi, Gyeong-gi Noh, and Euee S. Jang},
+      title={Frame-based Adaptive selection of ALF for Fast HEVC Decoding},
+      journal={IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)},
+      year={2012},
+      doi={10.1109/bmsb.2012.6264321}
+    }
+- title: CU depth-based ALF Decision for Fast HEVC Encoding
+  authors: Sang-hyo Park, Kiho Choi, and Euee S. Jang
+  journal: IEEE 16th International Symposium on Consumer Electronics (ISCE)
+  year: 2012
+  category: International Conference
+  id: IC06
+  url: https://doi.org/10.1109/isce.2012.6241691
+  description: In this paper, we propose a coding unit (CU) depth-based adaptive loop filter (ALF) decision method to reduce the encoder complexity. In high efficiency video coding (HEVC), ALF is designed based on Wiener filter to minimize the distortion between the original frame and the coded frame. In order to design the optimal filter for each CU, the filter design process is repeated 12 times per CU. The repetition of the filter design process occupies about 77 percent in the total ALF computation time, which substantially increases the encoder complexity. The proposed method simplifies the filter design with the CU depth-based ALF decision, which is based on the observation by exploiting ineffective computations. Experimental results show that the proposed method reduces the encoding time for the repetition of the filter design process by about 13 percent of that of the HEVC test model (i.e., HM 5.0) with 0.1 percent BD-rate increase.
+  bibtex: |-
+    @inproceedings{IC06,
+      author={Sang-hyo Park, Kiho Choi, and Euee S. Jang},
+      title={CU depth-based ALF Decision for Fast HEVC Encoding},
+      journal={IEEE 16th International Symposium on Consumer Electronics (ISCE)},
+      year={2012},
+      doi={10.1109/isce.2012.6241691}
+    }
+- title: Fast Mode Decision for MPEG-4 AVC/H.264 using Spatio-temporal Correlation
+  authors: Kiho Choi, Sunyoung Lee, and Euee S. Jang
+  journal: Picture Coding Symposium (PCS), IEEE
+  pages: 481-484
+  year: 2012
+  category: International Conference
+  id: IC05
+  url: https://doi.org/10.1109/pcs.2012.6213259
+  description: The latest video coding standard, MPEG-4 AVC/H.264 provides the best performance in compression efficiency among existing video coding standards. To achieve higher compression efficiency, AVC/H.264 standard employs a variety of encoding tools but at the expense of greater computational complexity of the encoder. In this paper, we propose a fast mode decision algorithm for the design of a fast AVC/H.264 encoder by exploiting spatio-temporal correlation of macro block (MB) mode types. Through the statistical analysis of encoding mode types in AVC/H.264 JM 11.0, we found that the best mode type of the current MB is highly correlated with the mode types of spatially neighboring MBs and temporally collocated MBs. The experimental results showed that AVC/H.264 encoder using our proposed method produced about 66 % speedup without noticeable visual degradation compared to the AVC/H.264 JM 11.0 encoder.
+  bibtex: |-
+    @inproceedings{IC05,
+      author={Kiho Choi, Sunyoung Lee, and Euee S. Jang},
+      title={Fast Mode Decision for MPEG-4 AVC/H.264 using Spatio-temporal Correlation},
+      journal={Picture Coding Symposium (PCS), IEEE},
+      year={2012},
+      pages={481-484},
+      doi={10.1109/pcs.2012.6213259}
+    }
+- title: FIXED-POINT ZERO COEFFICIENT-AWARE FAST IQ-IDCT ALGORITHM
+  authors: Ki hoon Lee, Kiho Choi, and Euee S. Jang
+  journal: IEEE International Conference on Consumer Electronics - Berlin (ICCE-Berlin)
+  year: 2011
+  category: International Conference
+  id: IC04
+  url: https://doi.org/10.1109/icce-berlin.2011.6031890
+  description: In this paper, we propose a fixed-point zero coefficient-aware fast IQ-IDCT algorithm to reduce the computational complexity of discrete cosine transform and cope with mismatch of decoded data in between encoder and decoder. The major theme of this paper is based on zero coefficient-aware design, which reduces the computational complexity of inverse DCT algorithms by avoiding unnecessary computations caused by zero DCT coefficients. We extended the zero coefficient-aware design to the inverse quantization stage to farther reduce the computational complexity of inverse quantization and inverse DCT by avoiding computations with zero quantized DCT coefficients. In order to maximize the computational complexity reduction as well as to preserve precision accuracy of the ideal IQ-IDCT process, the proposed method employs the fixed-point approximation scheme on all computational procedures of the IQ-IDCT based on table-lookup operations with accurate dyadic terms. As a result, we have achieved a speedup by factor of 3.1 on average compared to the fixed-point 8×8 inverse discrete cosine transform standard.
+  bibtex: |-
+    @inproceedings{IC04,
+      author={Ki hoon Lee, Kiho Choi, and Euee S. Jang},
+      title={FIXED-POINT ZERO COEFFICIENT-AWARE FAST IQ-IDCT ALGORITHM},
+      journal={IEEE International Conference on Consumer Electronics - Berlin (ICCE-Berlin)},
+      year={2011},
+      doi={10.1109/icce-berlin.2011.6031890}
+    }
+- title: An Efficient AVC/H. 264 Intra Mode Scheme for Visual Quality Improvement
+  authors: Kiho Choi, Ki hoon Lee, Gyeong Gi Noh and Euee S. Jang
+  journal: International Conference on Multimedia Information Technology and Applications (MITA)
+  year: 2011
+  category: International Conference
+  id: IC03
+  url: https://doi.org/10.1007/s11042-013-1480-2
+  description: In this paper, we propose an efficient intra mode scheme for visual quality improvement in AVC/H.264. In AVC/H.264 intra prediction, spatial neighboring blocks are used to predict the current block pixels. While the pixels in the left and top positions of the current block can be predicted accurately, the prediction of the pixels in the right and bottom positions is not as effective due to low correlation between the reconstructed and current pixels. This affects visual quality of reconstructed video quality substantially. Here, we propose an efficient intra mode scheme, which adaptively adjusts the predictive value for intra prediction by using the differential values of the neighbor blocks. The experimental results show that the proposed method implemented in the AVC/H.264 reference software produced the better visual quality than that of conventional intra prediction without any loss in compression efficiency.
+  bibtex: |-
+    @inproceedings{IC03,
+      author={Kiho Choi, Ki hoon Lee, Gyeong Gi Noh and Euee S. Jang},
+      title={An Efficient AVC/H. 264 Intra Mode Scheme for Visual Quality Improvement},
+      journal={International Conference on Multimedia Information Technology and Applications (MITA)},
+      year={2011},
+      doi={10.1007/s11042-013-1480-2}
+    }
+- title: ZERO COEFFICIENT-AWARE FAST IQ-IDCT ALGORITHM
+  authors: Kiho Choi, Ki hoon Lee, Eun Ji Kim and Euee S. Jang
+  journal: IEEE International Conference on Network Infrastructure and Digital Content (IC-NIDC)
+  year: 2010
+  category: International Conference
+  id: IC02
+  url: https://doi.org/10.1109/icnidc.2010.5657972
+  description: In this paper, we propose a zero quantized DCT coefficients-aware algorithm for the implementation of fast inverse quantization (IQ) and inverse discrete cosine transform (IDCT). In our prior work [4], we showed that zero coefficient-ware IDCT algorithm for fast decoding. In this paper, we extended a zero-skipping IDCT (Z-IDCT) by incorporating IQ with Z-IDCT. By adaptively skipping zero quantized coefficient computations, the proposed method can significantly reduce the computation time of IQ and IDCT in decoder. The decoding time of IQ and IDCT using the proposed method showed 36.7 percent speedup on average compared to that of MPEG-4 simple profile, and it also showed 9.6 percent speedup on average compared to that of Z-IDCT with MPEG-4 simple profile.
+  bibtex: |-
+    @inproceedings{IC02,
+      author={Kiho Choi, Ki hoon Lee, Eun Ji Kim and Euee S. Jang},
+      title={ZERO COEFFICIENT-AWARE FAST IQ-IDCT ALGORITHM},
+      journal={IEEE International Conference on Network Infrastructure and Digital Content (IC-NIDC)},
+      year={2010},
+      doi={10.1109/icnidc.2010.5657972}
+    }
+- title: Unified Framework of Frame Skipping and Interpolation for Efficient Video Compression
+  authors: Sunyoung Lee, Myungjung Lee, Kiho Choi, and Euee S. Jang
+  journal: IEEE International Conference on Network Infrastructure and Digital Content (IC-NIDC)
+  year: 2009
+  category: International Conference
+  id: IC01
+  url: https://doi.org/10.1109/icnidc.2009.5360919
+  description: In this paper, we propose the unified framework of frame skipping and interpolation (UF-FSI) for efficient video compression. Frame skipping and interpolation is one of the efficient approaches to reduce the redundancy of video frames. A joint design of frame skipping and interpolation is made for maximization of compression efficiency, which was not considered from previous research. A good advantage of UF-FSI is that it can be applied to any conventional video codec. Frame skipping in the proposed method is done by selecting key frames through analysis of neighboring frames. In frame interpolation, in-between frames are reconstructed by key frames using motion compensated interpolation. Using with MPEG-4 simple profile, UF-FSI offered additional coding efficiency up to 25 percent with good visual quality.
+  bibtex: |-
+    @inproceedings{IC01,
+      author={Sunyoung Lee, Myungjung Lee, Kiho Choi, and Euee S. Jang},
+      title={Unified Framework of Frame Skipping and Interpolation for Efficient Video Compression},
+      journal={IEEE International Conference on Network Infrastructure and Digital Content (IC-NIDC)},
+      year={2009},
+      doi={10.1109/icnidc.2009.5360919}
+    }
+- title: Analysis of Next-Generation VVC/H.266 Standard for Gaming Content
+  authors: Xilong Liang, Kiho Choi
+  journal: Journal of Broadcast Engineering
+  volume: '29'
+  pages: 1157-1167
+  year: 2024
+  category: Domestic Journal
+  id: DJ07
+  url: https://doi.org/10.5909/jbe.2024.29.7.1157
+  description: Game streaming has emerged as a key technology that enables high-end gaming on various devices by offloading complex processing tasks to remote, high-performance servers. However, delivering high-quality game streams with minimal latency and high compression efficiency presents several challenges in video compression. This paper evaluates the impact of key coding tools in the Versatile Video Coding (VVC)/H.266 standard on gaming content. Experimental results show that tools such as Intra Block Copy (IBC) and Linear Model for Chrominance intra prediction (LMChroma) provide excellent compression performance for screen content sequences, while Chroma Transform Skip (ChromaTS) and Joint Cb and Cr (JCCR) exhibit limited performance due to differences in chroma structure. These findings highlight the need for next-generation coding standards to more effectively reflect the unique characteristics of gaming content, ensuring high-quality, low-latency streaming.
+  bibtex: |-
+    @article{DJ07,
+      author={Xilong Liang, Kiho Choi},
+      title={Analysis of Next-Generation VVC/H.266 Standard for Gaming Content},
+      journal={Journal of Broadcast Engineering},
+      year={2024},
+      volume={29},
+      pages={1157-1167},
+      doi={10.5909/jbe.2024.29.7.1157}
+    }
+- title: Performance Evaluation of Open Source Codec XEVE, XEVD for MPEG-5 Essential Video Coding
+  authors: Kiho Choi
+  journal: Journal of Broadcast Engineering
+  volume: '29'
+  pages: 28-41
+  year: 2024
+  category: Domestic Journal
+  id: DJ06
+  url: https://doi.org/10.5909/jbe.2024.29.1.28
+  description: 최근 세계적으로 동영상의 활용도가 크게 증가하고 있다. 새로운 서비스를 제공하기 위한 동영상 기반 애플리케이션 등장과 함께 동영상 응용 분야가 빠르게 진화하고 있으며, 이러한 응용 분야의 특징은 고해상도 및 고품질 영상을 활용하여 소비자의 경험을 더욱 풍부하게 만든다는 것이다. 동영상 활용도의 증가는 인터넷 트래픽에서 동영상이 차지하는 비중을 더욱 가중화 하는 결과를 만들고 있고, 증가된 영상 트래픽을 제어하기 위하여 동영상 압축 기술의 중요성이 부각되고 있다. 본 논문은 영상 데이터를 효율적으로 압축하기 위해서 등장한 최신 코덱 표준 중 하나인 MPEG-5 part1 Essential Video Coding (EVC) 표준의 오픈소스 코덱인 XEVE, XEVD의 압축 성능과 복잡도를 평가하고 실험 결과를 통해 새로운 통찰력을 제시하고자 한다. 구체적으로 실험을 통해 확인된 XEVE, XEVD 압축 성능은 제공하는 모드에 따라서 다양하게 나타나지만 표준화 과정에서 제시된 성능과 유사하여 시제품을 위한 성능 검증을 위한 활용도는 높은 것으로 판단된다. XEVE, XEVD의 복잡도 성능은 상용화 관점에서 바로 제품에 적용하기에는 인코더 복잡도 부분에서 개선이 필요할 것으로 확인되었다.
+  bibtex: |-
+    @article{DJ06,
+      author={Kiho Choi},
+      title={Performance Evaluation of Open Source Codec XEVE, XEVD for MPEG-5 Essential Video Coding},
+      journal={Journal of Broadcast Engineering},
+      year={2024},
+      volume={29},
+      pages={28-41},
+      doi={10.5909/jbe.2024.29.1.28}
+    }
+- title: ECM technology for Post VVC standard
+  authors: Kiho Choi
+  journal: Information and Communications Magazine
+  volume: '40'
+  pages: no. 9
+  year: 2023
+  category: Domestic Journal
+  id: DJ05
+  description: 
+  bibtex: |-
+    @article{DJ05,
+      author={Kiho Choi},
+      title={ECM technology for Post VVC standard},
+      journal={Information and Communications Magazine},
+      year={2023},
+      volume={40},
+      pages={no. 9}
+    }
+- title: Neural Network based Video Coding in JVET
+  authors: Kiho Choi
+  journal: Journal of Broadcast Engineering
+  volume: '27'
+  pages: 1021-1033
+  year: 2022
+  category: Domestic Journal
+  id: DJ04
+  url: https://doi.org/10.5909/JBE.2022.27.7.1021
+  description: After the Versatile Video Coding (VVC)/H.266 standard was completed, the Joint Video Exploration Team (JVET) began to investigate new technologies that could significantly increase coding gain for the next generation video coding standard. One direction is to investigate signal processing based tools, while the other is to investigate Neural Network based technology. In this paper, we provide a brief overview and review of the NNVC activity studied in JVET in order to provide trend and insight for the new direction of video coding standard.
+  bibtex: |-
+    @article{DJ04,
+      author={Kiho Choi},
+      title={Neural Network based Video Coding in JVET},
+      journal={Journal of Broadcast Engineering},
+      year={2022},
+      doi={10.5909/JBE.2022.27.7.1021}
+    }
+- title: MPEG-I Video Standard Trend
+  authors: Kiho Choi, and Geon Bang
+  journal: Broadcasting and Media Magazine
+  volume: '23'
+  pages: 41-57
+  year: 2018
+  category: Domestic Journal
+  id: DJ03
+  description: 
+  bibtex: |-
+    @article{DJ03,
+      author={Kiho Choi, and Geon Bang},
+      title={MPEG-I Video Standard Trend},
+      journal={Broadcasting and Media Magazine},
+      year={2018},
+      volume={23},
+      pages={41-57}
+    }
+- title: Standard Trend of FVC 360 video technology
+  authors: Kiho Choi
+  journal: Electronic Engineering Magazine
+  volume: '45'
+  pages: no. 2
+  year: 2018
+  category: Domestic Journal
+  id: DJ02
+  description: 
+  bibtex: |-
+    @article{DJ02,
+      author={Kiho Choi},
+      title={Standard Trend of FVC 360 video technology},
+      journal={Electronic Engineering Magazine},
+      year={2018},
+      volume={45},
+      pages={no. 2}
+    }
+- title: Efficient parallelization implementation technique of PU-level ME for fast HEVC encoding
+  authors: Soobin Park, Kiho Choi, Sanghyo Park, and Euee S. Jang
+  journal: Journal of Korean Society of Broadcast Engineers
+  volume: '18'
+  pages: 178-184
+  year: 2013
+  category: Domestic Journal
+  id: DJ01
+  url: https://doi.org/10.5909/jbe.2013.18.2.178
+  description: This paper addresses the current technical challenge of an impedance mismatch between the requirements of smart connected object applications within the sensing environment and the characteristics of today's cloud infrastructure. We investigate the possibility to offload cloud tasks, such as storage and data signal processing to the edge of the network, thus decreasing the latency associated with performing those tasks within the cloud. The research scenario is an e-Health laboratory implementation where the real-time processing is performed by the home PC, while the extracted metadata is sent to the cloud for further processing.
+  bibtex: |-
+    @article{DJ01,
+      author={Soobin Park, Kiho Choi, Sanghyo Park, and Euee S. Jang},
+      title={Efficient parallelization implementation technique of PU-level ME for fast HEVC encoding},
+      journal={Journal of Korean Society of Broadcast Engineers},
+      year={2013},
+      volume={18},
+      pages={178-184},
+      doi={10.5909/jbe.2013.18.2.178}
+    }
+- title: Evaluation of Compression Artifacts and Visual Quality in AI-Generated Videos Using VVC/H.266
+  authors: Qingran He, Kiho Choi*
+  journal: 2025 The Korean Institute of Broadcast and Media Engineers Fall Conference
+  year: 2025
+  category: Domestic Conference
+  id: DC13
+  description: 
+  bibtex: |-
+    @inproceedings{DC13,
+      author={Qingran He, Kiho Choi},
+      title={Evaluation of Compression Artifacts and Visual Quality in AI-Generated Videos Using VVC/H.266},
+      booktitle={2025 The Korean Institute of Broadcast and Media Engineers Fall Conference},
+      year={2025}
+    }
+- title: Adaptive Planar Weight Adjustment for Improving DIMD Performance
+  authors: Junghyeon Lee, Kiho Choi*
+  journal: 2025 The Korean Institute of Broadcast and Media Engineers Summer Conference
+  year: 2025
+  category: Domestic Conference
+  id: DC12
+  description: 
+  bibtex: |-
+    @inproceedings{DC12,
+      author={Junghyeon Lee, Kiho Choi},
+      title={Adaptive Planar Weight Adjustment for Improving DIMD Performance},
+      booktitle={2025 The Korean Institute of Broadcast and Media Engineers Summer Conference},
+      year={2025}
+    }
+- title: A web-based, AI-assisted deep learning application utilizing YOLO11 for precise detection and visualization of wrist fractures in X-ray images
+  authors: Mubashar Tariq, Kiho Choi*
+  journal: 2025 The Korean Institute of Broadcast and Media Engineers Summer Conference
+  year: 2025
+  category: Domestic Conference
+  id: DC11
+  description: 
+  bibtex: |-
+    @inproceedings{DC11,
+      author={Mubashar Tariq, Kiho Choi},
+      title={A web-based, AI-assisted deep learning application utilizing YOLO11 for precise detection and visualization of wrist fractures in X-ray images},
+      booktitle={2025 The Korean Institute of Broadcast and Media Engineers Summer Conference},
+      year={2025}
+    }
+- title: Evaluating the Coding Efficiency of ECM and VTM for Low-Delay on Gaming Contents
+  authors: Xilong Liang, Junghyeon Lee, Bopu Zhao, Zezhen Gai, Kiho Choi*
+  journal: 2025 The Korean Institute of Broadcast and Media Engineers Summer Conference
+  year: 2025
+  category: Domestic Conference
+  id: DC10
+  description: 
+  bibtex: |-
+    @inproceedings{DC10,
+      author={Xilong Liang, Junghyeon Lee, Bopu Zhao, Zezhen Gai, Kiho Choi},
+      title={Evaluating the Coding Efficiency of ECM and VTM for Low-Delay on Gaming Contents},
+      booktitle={2025 The Korean Institute of Broadcast and Media Engineers Summer Conference},
+      year={2025}
+    }
+- title: 'Post-Filtering in Neural Network Video Coding: A Review of Current Techniques and Future Directions'
+  authors: Zezhen Gai, Bopu Zhao, Tanni Das, Kiho Choi*
+  journal: Conference of the Korean Institute of Communication and Information Sciences
+  year: 2024
+  category: Domestic Conference
+  id: DC09
+  description: 
+  bibtex: |-
+    @inproceedings{DC09,
+      author={Zezhen Gai, Bopu Zhao, Tanni Das, Kiho Choi},
+      title={Post-Filtering in Neural Network Video Coding: A Review of Current Techniques and Future Directions},
+      booktitle={Conference of the Korean Institute of Communication and Information Sciences},
+      year={2024}
+    }
+- title: CNN-based poster filter for low-quality screen content video
+  authors: Seoyeon Jang, Tanni Das, Xilong Liang, Woowon Kwon, Kiho Choi*
+  journal: 2024 The Korean Institute of Broadcast and Media Engineers Summer Conference
+  year: 2024
+  category: Domestic Conference
+  id: DC08
+  description: 
+  bibtex: |-
+    @inproceedings{DC08,
+      author={Seoyeon Jang, Tanni Das, Xilong Liang, Woowon Kwon, Kiho Choi},
+      title={CNN-based poster filter for low-quality screen content video},
+      booktitle={2024 The Korean Institute of Broadcast and Media Engineers Summer Conference},
+      year={2024}
+    }
+- title: Experiment on CNN based Poster-filter using JVET NNVC In-loop filtering
+  authors: Xilong Liang, Tanni Das, Kiho Choi*
+  journal: 2024 The Korean Institute of Broadcast and Media Engineers Summer Conference
+  year: 2024
+  category: Domestic Conference
+  id: DC07
+  description: 
+  bibtex: |-
+    @inproceedings{DC07,
+      author={Xilong Liang, Tanni Das, Kiho Choi},
+      title={Experiment on CNN based Poster-filter using JVET NNVC In-loop filtering},
+      booktitle={2024 The Korean Institute of Broadcast and Media Engineers Summer Conference},
+      year={2024}
+    }
+- title: 'Introduction to Video Coding Compression Technology for Machines: FCVCM Standard'
+  authors: Xilong Liang, Jang Seoyeon, Kiho Choi*
+  journal: Conference of the Korean Institute of Communication and Information Sciences
+  year: 2023
+  category: Domestic Conference
+  id: DC06
+  description: 
+  bibtex: |-
+    @inproceedings{DC06,
+      author={Xilong Liang, Jang Seoyeon, Kiho Choi},
+      title={Introduction to Video Coding Compression Technology for Machines: FCVCM Standard},
+      booktitle={Conference of the Korean Institute of Communication and Information Sciences},
+      year={2023}
+    }
+- title: EVC partitioning method
+  authors: Minsoo Park, Min Woo Park, Kiho Choi, Yinji Pyo, Kwang Pyo Choi
+  journal: Fall Conference of Korean Institute of Communications and Information Sciences
+  year: 2020
+  category: Domestic Conference
+  id: DC05
+  description: 
+  bibtex: |-
+    @inproceedings{DC05,
+      author={Minsoo Park, Min Woo Park, Kiho Choi, Yinji Pyo, Kwang Pyo Choi},
+      title={EVC partitioning method},
+      booktitle={Fall Conference of Korean Institute of Communications and Information Sciences},
+      year={2020}
+    }
+- title: A Study on Trends and Patent DB Analysis of Video Compression Standard
+  authors: Kyu Dong Kim, Kiho Choi, Sanghyo Park, and Euee S. Jang
+  journal: Spring Conference of Korean Institute of Communications and Information Sciences
+  year: 2013
+  category: Domestic Conference
+  id: DC04
+  description: 
+  bibtex: |-
+    @inproceedings{DC04,
+      author={Kyu Dong Kim, Kiho Choi, Sanghyo Park, and Euee S. Jang},
+      title={A Study on Trends and Patent DB Analysis of Video Compression Standard},
+      booktitle={Spring Conference of Korean Institute of Communications and Information Sciences},
+      year={2013}
+    }
+- title: Parallelization method of IDCT with SIMD for fast HEVC decoding
+  authors: Seungbo Hong, Kiho Choi, Sanghyo Park, and Euee S. Jang
+  journal: Spring Conference of Korean Society of Broadcast Engineers
+  year: 2013
+  category: Domestic Conference
+  id: DC03
+  description: 
+  bibtex: |-
+    @inproceedings{DC03,
+      author={Seungbo Hong, Kiho Choi, Sanghyo Park, and Euee S. Jang},
+      title={Parallelization method of IDCT with SIMD for fast HEVC decoding},
+      booktitle={Spring Conference of Korean Society of Broadcast Engineers},
+      year={2013}
+    }
+- title: Efficient parallelization implementation technique of PU-level ME for fast HEVC encoding
+  authors: Soobin Park, Kiho Choi, Sanghyo Park, and Euee S. Jang
+  journal: Fall Conference of Korean Society of Broadcast Engineers
+  year: 2012
+  category: Domestic Conference
+  id: DC02
+  url: https://doi.org/10.5909/jbe.2013.18.2.178
+  description: This paper addresses the current technical challenge of an impedance mismatch between the requirements of smart connected object applications within the sensing environment and the characteristics of today's cloud infrastructure. We investigate the possibility to offload cloud tasks, such as storage and data signal processing to the edge of the network, thus decreasing the latency associated with performing those tasks within the cloud. The research scenario is an e-Health laboratory implementation where the real-time processing is performed by the home PC, while the extracted metadata is sent to the cloud for further processing.
+  bibtex: |-
+    @inproceedings{DC02,
+      author={Soobin Park, Kiho Choi, Sanghyo Park, and Euee S. Jang},
+      title={Efficient parallelization implementation technique of PU-level ME for fast HEVC encoding},
+      journal={Fall Conference of Korean Society of Broadcast Engineers},
+      year={2012},
+      doi={10.5909/jbe.2013.18.2.178}
+    }
+- title: CU-Level Parallelization Method for HEVC Decoder
+  authors: Gyeong-gi Noh, Kiho Choi, and Euee S. Jang
+  journal: Fall Conference of Korean Society of Broadcast Engineers
+  year: 2011
+  category: Domestic Conference
+  id: DC01
+  description: 
+  bibtex: |-
+    @inproceedings{DC01,
+      author={Gyeong-gi Noh, Kiho Choi, and Euee S. Jang},
+      title={CU-Level Parallelization Method for HEVC Decoder},
+      booktitle={Fall Conference of Korean Society of Broadcast Engineers},
+      year={2011}
+    }
